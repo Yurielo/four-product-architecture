@@ -106,6 +106,78 @@
       },
       "rollback_of": null,
       "target": "local-primary"
+    },
+    {
+      "action": "activate",
+      "activated_at": null,
+      "dependencies": [
+        {
+          "artifacts": [
+            {
+              "digest": {
+                "algorithm": "sha256-file",
+                "value": "4a05532b92d1b4abaf01293100f43b6cd2578af8f99d225441af732eb586a3bf"
+              },
+              "location": "/Users/yurielokhin/Applications/videotext.app/Contents/Resources/SeminarText/seminartext",
+              "role": "bundled-cli",
+              "source_commit": "cf7a8445fa9f9dffc62b7ae24062e80475a3d223"
+            },
+            {
+              "digest": {
+                "algorithm": "sha256-file",
+                "value": "f9927f995b622b33549f910a547febb428dfb88d95c28f2d11404137e86ccced"
+              },
+              "location": "/Users/yurielokhin/Applications/videotext.app/Contents/Resources/SeminarText/CANONICAL_COMMIT",
+              "role": "canonical-commit",
+              "source_commit": "cf7a8445fa9f9dffc62b7ae24062e80475a3d223"
+            },
+            {
+              "digest": {
+                "algorithm": "sha256-file",
+                "value": "e1d49c569ae09b2ede16e2d83820a3809b35eb6c44c13ba9b5330598d6b8f43c"
+              },
+              "location": "/Users/yurielokhin/Applications/videotext.app/Contents/Resources/SeminarText/SEMINARTEXT_VERSION",
+              "role": "version-manifest",
+              "source_commit": "cf7a8445fa9f9dffc62b7ae24062e80475a3d223"
+            }
+          ],
+          "manifest": "/Users/yurielokhin/Applications/videotext.app/Contents/Resources/SeminarText/CANONICAL_COMMIT; version manifest: /Users/yurielokhin/Applications/videotext.app/Contents/Resources/SeminarText/SEMINARTEXT_VERSION",
+          "mode": "bundled",
+          "provider": "seminartext",
+          "role": "selected-timing-runtime",
+          "source_commit": "cf7a8445fa9f9dffc62b7ae24062e80475a3d223"
+        }
+      ],
+      "event_id": "sha256:b8a968e758ead455c8d8ad2915b0d4535cad64cfa864150410cebeb3e474ae51",
+      "evidence": [
+        {
+          "path": "evidence/videotext-070-native-activation.json",
+          "sha256": "bf6afbb1c84577cc1963908963251f5a3a5bf59126e034febb64cce6b915f09a"
+        }
+      ],
+      "generation": 2,
+      "predecessor": "sha256:60f3c037c659f5386cafdc0cf9c51350e28bb5ba5f7ac0ff3fa6eedfc9aa840f",
+      "product": "videotext",
+      "recorded_at": "2026-10-27T13:27:34Z",
+      "release": {
+        "artifacts": [
+          {
+            "digest": {
+              "algorithm": "sha256-file-list-v1",
+              "value": "9661f18bfc60dfc3c4b5a06d2d9cb5dff8e1791e8a2cd7a166acd8bec0f80016"
+            },
+            "location": "/Users/yurielokhin/Applications/videotext.app",
+            "role": "installed-app",
+            "source_commit": "8d73738bda6bd544d0344084e3f5c4c8336ff0dd"
+          }
+        ],
+        "build": "2026.10.20.1",
+        "native_ref": "https://github.com/Yurielo/videotext/pull/49#issuecomment-6442907137",
+        "source_commit": "8d73738bda6bd544d0344084e3f5c4c8336ff0dd",
+        "version": "0.7.0"
+      },
+      "rollback_of": null,
+      "target": "local-primary"
     }
   ],
   "products": {
@@ -125,7 +197,7 @@
       "unregistered_reason": "Installed 4.0.0 and 24/24 runtime hashes were verified in the 2026-10-27 audit; the backup manifest precedes deployment completion. A complete native post-deploy success receipt has not been established."
     },
     "videotext": {
-      "current": "sha256:60f3c037c659f5386cafdc0cf9c51350e28bb5ba5f7ac0ff3fa6eedfc9aa840f",
+      "current": "sha256:b8a968e758ead455c8d8ad2915b0d4535cad64cfa864150410cebeb3e474ae51",
       "repository": "Yurielo/videotext",
       "unregistered_reason": null
     }

@@ -1,0 +1,53 @@
+{
+  "kind": "native_activation",
+  "native_evidence": {
+    "accepted_candidate": {
+      "content_digest": "9661f18bfc60dfc3c4b5a06d2d9cb5dff8e1791e8a2cd7a166acd8bec0f80016",
+      "head": "8d73738bda6bd544d0344084e3f5c4c8336ff0dd",
+      "owner_pass_reference": "https://github.com/Yurielo/videotext/pull/49#issuecomment-6442907137",
+      "path": "/Users/Shared/videotext-pr49-transcription-8d73738-candidate/videotext.app"
+    },
+    "bundled_seminartext": {
+      "canonical_commit": "cf7a8445fa9f9dffc62b7ae24062e80475a3d223",
+      "canonical_commit_file_sha256": "f9927f995b622b33549f910a547febb428dfb88d95c28f2d11404137e86ccced",
+      "cli_sha256": "4a05532b92d1b4abaf01293100f43b6cd2578af8f99d225441af732eb586a3bf",
+      "manifest_paths": [
+        "/Users/yurielokhin/Applications/videotext.app/Contents/Resources/SeminarText/CANONICAL_COMMIT",
+        "/Users/yurielokhin/Applications/videotext.app/Contents/Resources/SeminarText/SEMINARTEXT_VERSION"
+      ],
+      "version": "4.0.0",
+      "version_file_sha256": "e1d49c569ae09b2ede16e2d83820a3809b35eb6c44c13ba9b5330598d6b8f43c"
+    },
+    "installed_bundle_observation": {
+      "codesign_verification": "PASS",
+      "content_digest": "9661f18bfc60dfc3c4b5a06d2d9cb5dff8e1791e8a2cd7a166acd8bec0f80016",
+      "digest_algorithm": "sha256-file-list-v1",
+      "path": "/Users/yurielokhin/Applications/videotext.app",
+      "version": "0.7.0 (2026.10.20.1)"
+    },
+    "native_delivery_record": {
+      "path": "/Users/yurielokhin/.codex/worktrees/automated-processing-presets/work/release-gate/20261027T100329Z/post-owner-delivery.json",
+      "sha256": "a1481c6e1a127ef510aa79a06a6cd6689734a77f5898db661c6c499a4531d87f",
+      "value": {
+        "acceptedHead": "8d73738bda6bd544d0344084e3f5c4c8336ff0dd",
+        "backupPath": "/Users/yurielokhin/.codex/worktrees/automated-processing-presets/work/release-gate/backups/videotext-before-pr49-8d73738.app",
+        "candidatePath": "/Users/Shared/videotext-pr49-transcription-8d73738-candidate/videotext.app",
+        "contentDigest": "9661f18bfc60dfc3c4b5a06d2d9cb5dff8e1791e8a2cd7a166acd8bec0f80016",
+        "hostedRun": 40507316568,
+        "installedPath": "/Users/yurielokhin/Applications/videotext.app",
+        "mergeCommit": "f715f11df72f8e4e806b70b2a2f86cf097a6bf6c",
+        "postInstallLifecycle": "PASS",
+        "recordedAt": "2026-10-27T13:21:46Z",
+        "schemaVersion": 1
+      }
+    },
+    "release_gate_evidence": {
+      "path": "/Users/yurielokhin/.codex/worktrees/automated-processing-presets/work/release-gate/20261027T100329Z/evidence.env",
+      "sha256": "58ce72e14a58255f70b0f284afee64f77739393e74735fd135ad0fbbc5af142e",
+      "status": "PASS"
+    }
+  },
+  "native_reference": "https://github.com/Yurielo/videotext/pull/49#issuecomment-6442907137",
+  "status": "SUCCEEDED",
+  "subject_sha256": "482c7b4dc991ba7f84a3ef32c007ccec0109a395493b5743768c346b5657171d"
+}
