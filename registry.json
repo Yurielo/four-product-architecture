@@ -1,0 +1,134 @@
+{
+  "history": [
+    {
+      "action": "activate",
+      "activated_at": null,
+      "dependencies": [
+        {
+          "artifacts": [
+            {
+              "digest": {
+                "algorithm": "sha256-file",
+                "value": "4a05532b92d1b4abaf01293100f43b6cd2578af8f99d225441af732eb586a3bf"
+              },
+              "location": "/Users/yurielokhin/Applications/videotext.app/Contents/Resources/SeminarText/seminartext",
+              "role": "bundled-cli",
+              "source_commit": "cf7a8445fa9f9dffc62b7ae24062e80475a3d223"
+            },
+            {
+              "digest": {
+                "algorithm": "sha256-file",
+                "value": "f9927f995b622b33549f910a547febb428dfb88d95c28f2d11404137e86ccced"
+              },
+              "location": "/Users/yurielokhin/Applications/videotext.app/Contents/Resources/SeminarText/CANONICAL_COMMIT",
+              "role": "canonical-commit",
+              "source_commit": "cf7a8445fa9f9dffc62b7ae24062e80475a3d223"
+            }
+          ],
+          "manifest": "/Users/yurielokhin/Applications/videotext.app/Contents/Resources/SeminarText/CANONICAL_COMMIT",
+          "mode": "bundled",
+          "provider": "seminartext",
+          "role": "selected-timing-runtime",
+          "source_commit": "cf7a8445fa9f9dffc62b7ae24062e80475a3d223"
+        }
+      ],
+      "event_id": "sha256:60f3c037c659f5386cafdc0cf9c51350e28bb5ba5f7ac0ff3fa6eedfc9aa840f",
+      "evidence": [
+        {
+          "path": "evidence/videotext-initial-activation.json",
+          "sha256": "bc580fcdfbbb7c12e649986a69c5891420dbec118e0d84a910d03184305cb6a2"
+        }
+      ],
+      "generation": 1,
+      "predecessor": null,
+      "product": "videotext",
+      "recorded_at": "2026-10-27T11:30:15.738691+00:00",
+      "release": {
+        "artifacts": [
+          {
+            "digest": {
+              "algorithm": "sha256-file-list-v1",
+              "value": "eac8160b9e6b55aadd606620c14c900003903fa094a346e6c53db8f59f3bda4c"
+            },
+            "location": "/Users/yurielokhin/Applications/videotext.app",
+            "role": "installed-app",
+            "source_commit": "81750aa917ad3efa620a45c21a7f1740f0fec519"
+          }
+        ],
+        "build": "2026.09.25.1",
+        "native_ref": "https://github.com/Yurielo/videotext/pull/46#issuecomment-6297223053",
+        "source_commit": "81750aa917ad3efa620a45c21a7f1740f0fec519",
+        "version": "0.6.8"
+      },
+      "rollback_of": null,
+      "target": "local-primary"
+    },
+    {
+      "action": "activate",
+      "activated_at": null,
+      "dependencies": [],
+      "event_id": "sha256:939c5cd66fce8758611927832abee350a3db3de80be98badc45f9e367c21bfd3",
+      "evidence": [
+        {
+          "path": "evidence/booktext-initial-activation.json",
+          "sha256": "a671b37eebb40f08bbc5d0d261c96c9ef0eb0a368d9d31387c495997bbd2b20b"
+        }
+      ],
+      "generation": 1,
+      "predecessor": null,
+      "product": "booktext",
+      "recorded_at": "2026-10-27T11:30:15.738691+00:00",
+      "release": {
+        "artifacts": [
+          {
+            "digest": {
+              "algorithm": "sha256-file-list-v1",
+              "value": "fb3f77556cd702f3a90b4813d5c105037ea2c24f2240787f11f5835122d01759"
+            },
+            "location": "/Applications/BookText.app",
+            "role": "installed-gui",
+            "source_commit": null
+          },
+          {
+            "digest": {
+              "algorithm": "git-sha1-tree",
+              "value": "a307d083880efdf775ad7d10fe2b2480a6bbde97"
+            },
+            "location": "/Users/yurielokhin/Library/Application Support/BookText/Core",
+            "role": "installed-core-tracked-tree",
+            "source_commit": "8418319021516323cbf71b2b0c59538840590f2b"
+          }
+        ],
+        "build": "1",
+        "native_ref": "https://github.com/Yurielo/booktext/issues/116#issuecomment-5968962731",
+        "source_commit": null,
+        "version": "0.1.0"
+      },
+      "rollback_of": null,
+      "target": "local-primary"
+    }
+  ],
+  "products": {
+    "booktext": {
+      "current": "sha256:939c5cd66fce8758611927832abee350a3db3de80be98badc45f9e367c21bfd3",
+      "repository": "Yurielo/booktext",
+      "unregistered_reason": null
+    },
+    "integra": {
+      "current": null,
+      "repository": "Yurielo/integra",
+      "unregistered_reason": "Accepted K1 CURRENT candidate 675acf457d65e7633481bcea700036b7e9ef6298e0c6d6eb097e513d3bff249f is not proven activated. READY_APP and dev app differ from its retained archive; CURRENT promotion and archive COMPLETE are not deployment."
+    },
+    "seminartext": {
+      "current": null,
+      "repository": "Yurielo/seminartext",
+      "unregistered_reason": "Installed 4.0.0 and 24/24 runtime hashes were verified in the 2026-10-27 audit; the backup manifest precedes deployment completion. A complete native post-deploy success receipt has not been established."
+    },
+    "videotext": {
+      "current": "sha256:60f3c037c659f5386cafdc0cf9c51350e28bb5ba5f7ac0ff3fa6eedfc9aa840f",
+      "repository": "Yurielo/videotext",
+      "unregistered_reason": null
+    }
+  },
+  "schema_version": 1
+}

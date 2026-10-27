@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Yurielo/four-product-architecture/schemas/registry.schema.json",
+  "title": "Activated product registry v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "products", "history"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "products": {
+      "type": "object", "additionalProperties": false,
+      "required": ["seminartext", "videotext", "booktext", "integra"],
+      "properties": {
+        "seminartext": {"$ref": "#/$defs/product"},
+        "videotext": {"$ref": "#/$defs/product"},
+        "booktext": {"$ref": "#/$defs/product"},
+        "integra": {"$ref": "#/$defs/product"}
+      }
+    },
+    "history": {"type": "array", "items": {"$ref": "#/$defs/event"}}
+  },
+  "$defs": {
+    "text": {"type": "string", "minLength": 1},
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "commit": {"type": ["string", "null"], "pattern": "^[0-9a-f]{40}$"},
+    "event_id": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "nullable_event": {"oneOf": [{"type": "null"}, {"$ref": "#/$defs/event_id"}]},
+    "product_name": {"enum": ["seminartext", "videotext", "booktext", "integra"]},
+    "product": {
+      "type": "object", "additionalProperties": false,
+      "required": ["repository", "current", "unregistered_reason"],
+      "properties": {
+        "repository": {"$ref": "#/$defs/text"},
+        "current": {"$ref": "#/$defs/nullable_event"},
+        "unregistered_reason": {"type": ["string", "null"], "minLength": 1}
+      }
+    },
+    "digest": {
+      "type": "object", "additionalProperties": false,
+      "required": ["algorithm", "value"],
+      "properties": {
+        "algorithm": {"enum": ["sha256-file", "sha256-tree-excluding-candidate-manifest", "sha256-file-list-v1", "git-sha1-tree"]},
+        "value": {"type": "string", "pattern": "^([0-9a-f]{40}|[0-9a-f]{64})$"}
+      }
+    },
+    "artifact": {
+      "type": "object", "additionalProperties": false,
+      "required": ["role", "location", "source_commit", "digest"],
+      "properties": {
+        "role": {"$ref": "#/$defs/text"}, "location": {"$ref": "#/$defs/text"},
+        "source_commit": {"$ref": "#/$defs/commit"}, "digest": {"$ref": "#/$defs/digest"}
+      }
+    },
+    "release": {
+      "type": "object", "additionalProperties": false,
+      "required": ["native_ref", "version", "build", "source_commit", "artifacts"],
+      "properties": {
+        "native_ref": {"$ref": "#/$defs/text"}, "version": {"$ref": "#/$defs/text"},
+        "build": {"type": ["string", "null"], "minLength": 1},
+        "source_commit": {"$ref": "#/$defs/commit"},
+        "artifacts": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/artifact"}}
+      }
+    },
+    "dependency": {
+      "type": "object", "additionalProperties": false,
+      "required": ["provider", "role", "mode", "source_commit", "artifacts", "manifest"],
+      "properties": {
+        "provider": {"$ref": "#/$defs/product_name"}, "role": {"$ref": "#/$defs/text"},
+        "mode": {"enum": ["bundled", "compiled_from_source", "external_pinned"]},
+        "source_commit": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+        "artifacts": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/artifact"}},
+        "manifest": {"$ref": "#/$defs/text"}
+      }
+    },
+    "evidence_ref": {
+      "type": "object", "additionalProperties": false,
+      "required": ["path", "sha256"],
+      "properties": {
+        "path": {"type": "string", "pattern": "^evidence/[a-z0-9][a-z0-9-]*\\.json$"},
+        "sha256": {"$ref": "#/$defs/sha256"}
+      }
+    },
+    "event": {
+      "type": "object", "additionalProperties": false,
+      "required": ["event_id", "product", "generation", "predecessor", "action", "rollback_of", "target", "activated_at", "recorded_at", "release", "dependencies", "evidence"],
+      "properties": {
+        "event_id": {"$ref": "#/$defs/event_id"}, "product": {"$ref": "#/$defs/product_name"},
+        "generation": {"type": "integer", "minimum": 1}, "predecessor": {"$ref": "#/$defs/nullable_event"},
+        "action": {"enum": ["activate", "rollback"]}, "rollback_of": {"$ref": "#/$defs/nullable_event"},
+        "target": {"$ref": "#/$defs/text"},
+        "activated_at": {"type": ["string", "null"], "format": "date-time"},
+        "recorded_at": {"type": "string", "format": "date-time"},
+        "release": {"$ref": "#/$defs/release"},
+        "dependencies": {"type": "array", "items": {"$ref": "#/$defs/dependency"}},
+        "evidence": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/evidence_ref"}}
+      }
+    }
+  }
+}

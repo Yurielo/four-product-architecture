@@ -1,0 +1,22 @@
+{
+  "kind": "native_activation",
+  "native_evidence": {
+    "body": "Completed by merged PR #135 at main 8418319021516323cbf71b2b0c59538840590f2b. One-start production pipeline PROCESS → SKIP REVIEW → FINAL BUILD/CDM → TranslateGemma EN→RU → translated DOCX passed on a real four-page English PDF excerpt. A real interrupted run reused a completed two-unit chunk and a partial translated unit, then automatically exported; a separate real pipeline-cancel stopped the verified active worker and resumed safely. Final DOCX is in this Codex task outputs. Post-merge 253 Python tests, Swift protocol/release build, main CI, strict app signing, installed Core SHA match and ordinary LaunchServices launch from /Applications/BookText.app passed. No BookText-owned inference descendants remained.",
+    "created_at": "2026-10-03T12:02:10Z",
+    "html_url": "https://github.com/Yurielo/booktext/issues/116#issuecomment-5968962731",
+    "id": 5968962731,
+    "updated_at": "2026-10-03T12:02:10Z"
+  },
+  "native_reference": "https://github.com/Yurielo/booktext/issues/116#issuecomment-5968962731",
+  "observation": {
+    "configured_core": "/Users/yurielokhin/Library/Application Support/BookText/Core/booktext.py",
+    "installed_core_commit": "8418319021516323cbf71b2b0c59538840590f2b",
+    "installed_core_git_status_porcelain": "",
+    "installed_gui_digest": "fb3f77556cd702f3a90b4813d5c105037ea2c24f2240787f11f5835122d01759",
+    "limitation": "GUI source commit is not separately attested; it is not inferred from the Core commit. Core tree digest covers tracked source, not external tools/models.",
+    "observed_at": "2026-10-27T11:30:15.738691+00:00"
+  },
+  "qualification": "Historical successful native installation recorded by the linked product lifecycle evidence. Exact activation time is unknown; recorded_at is central registration preparation, not a new deployment.",
+  "status": "SUCCEEDED",
+  "subject_sha256": "6102e08e42e02b9082837eb64b0795947717469d96a9b88e96185ea4679e8e1e"
+}

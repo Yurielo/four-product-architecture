@@ -1,0 +1,27 @@
+{
+  "kind": "native_activation",
+  "native_evidence": {
+    "body": "## PR #46 lifecycle complete\n\n- Owner PASS recorded for exact HEAD `81750aa917ad3efa620a45c21a7f1740f0fec519` and Candidate digest `eac8160b9e6b55aadd606620c14c900003903fa094a346e6c53db8f59f3bda4c`.\n- PR merged normally: `f6efe0b2504550aa51d689e6712e7472144d7599`.\n- Installed exact accepted Candidate: `/Users/yurielokhin/Applications/videotext.app`.\n- Installed content digest: `eac8160b9e6b55aadd606620c14c900003903fa094a346e6c53db8f59f3bda4c`.\n- Post-install codesign, baseline verification and normal Quit/reopen lifecycle: PASS.\n- Previous installed bundle was preserved in delivery evidence backup.\n",
+    "created_at": "2026-10-20T17:40:05Z",
+    "html_url": "https://github.com/Yurielo/videotext/pull/46#issuecomment-6297223053",
+    "id": 6297223053,
+    "updated_at": "2026-10-20T17:40:05Z"
+  },
+  "native_reference": "https://github.com/Yurielo/videotext/pull/46#issuecomment-6297223053",
+  "observation": {
+    "embedded_source": "cf7a8445fa9f9dffc62b7ae24062e80475a3d223",
+    "installed_bundle_digest_rechecked": "eac8160b9e6b55aadd606620c14c900003903fa094a346e6c53db8f59f3bda4c",
+    "native_digest_algorithm_ref": "https://github.com/Yurielo/videotext/blob/814c2aeab4eb76cd345c484575507ac73da11784/scripts/release_gate.sh#L159",
+    "observed_at": "2026-10-27T11:30:15.738691+00:00",
+    "owner_pass": {
+      "body": "## Owner PASS — exact accepted Candidate\n\n- Accepted HEAD: `81750aa917ad3efa620a45c21a7f1740f0fec519`\n- Candidate: `/Users/Shared/videotext-pr46-selected-variant-81750aa-candidate/videotext.app`\n- Path-independent content digest: `eac8160b9e6b55aadd606620c14c900003903fa094a346e6c53db8f59f3bda4c`\n\nFocused Owner Retest PASS:\n\n1. Coarse topics initially appeared as not created.\n2. Coarse topic creation was available and completed successfully.\n3. Coarse topics reached Ready / Open.\n4. Approved canonical Normal topic `Обсуждение задач Элины` remained available in Simple → Video Fragment → By Topic.\n5. No duplicate Normal topic generation was required.\n\nScope: this controlled project contains a deliberate Human Review test marker. This acceptance covers selected topic variants and topic-fragment availability only; it is not transcript-accuracy acceptance.\n",
+      "created_at": "2026-10-20T17:38:03Z",
+      "html_url": "https://github.com/Yurielo/videotext/pull/46#issuecomment-6297181044",
+      "id": 6297181044,
+      "updated_at": "2026-10-20T17:38:03Z"
+    }
+  },
+  "qualification": "Historical successful native installation recorded by the linked product lifecycle evidence. Exact activation time is unknown; recorded_at is central registration preparation, not a new deployment.",
+  "status": "SUCCEEDED",
+  "subject_sha256": "07f4cfaf7e86a2f1da36f410ecf65f5f7ad3c056a6b4270485d2fed778b1b8bb"
+}
