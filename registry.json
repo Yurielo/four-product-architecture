@@ -420,6 +420,257 @@
       },
       "rollback_of": null,
       "target": "file:///Users/yurielokhin/bin"
+    },
+    {
+      "action": "activate",
+      "activated_at": "2026-10-27T19:44:29.130068+00:00",
+      "dependencies": [],
+      "event_id": "sha256:c7190e62601e6bbd239f0c2feaa2d2be383aee52b90c63aaf2ff711da433eb91",
+      "evidence": [
+        {
+          "path": "evidence/seminartext-activation-ab26e6fbd5d280e9df01a75baa65a9a4a0a1c14240c2ac0aab340d6f48de9871.json",
+          "sha256": "ab26e6fbd5d280e9df01a75baa65a9a4a0a1c14240c2ac0aab340d6f48de9871"
+        }
+      ],
+      "generation": 2,
+      "predecessor": "sha256:47b77eeb49db91013355ad4659f804a422e74592c4ab66049da06cc271a2a3b5",
+      "product": "seminartext",
+      "recorded_at": "2026-10-27T19:44:29.130068+00:00",
+      "release": {
+        "artifacts": [
+          {
+            "digest": {
+              "algorithm": "sha256-file",
+              "value": "671721415695c3c05cf47a213575e9b5fc9964f85e781ae97e8fe292afd8605e"
+            },
+            "location": "/Users/yurielokhin/bin/seminartext_4.0_work",
+            "role": "cli",
+            "source_commit": "e6c5cd3a0f5e574bcceb112905cfca8f2c4a3228"
+          },
+          {
+            "digest": {
+              "algorithm": "sha256-file",
+              "value": "d8a14e83b877024c3e016a33e594af17d512741a77735ff3d8c7d1262628c8db"
+            },
+            "location": "/Users/yurielokhin/bin/seminartext_topics.py",
+            "role": "topics",
+            "source_commit": "e6c5cd3a0f5e574bcceb112905cfca8f2c4a3228"
+          },
+          {
+            "digest": {
+              "algorithm": "sha256-file",
+              "value": "1f8219e00f208c46a3dbf25586ebc6b1e2c82815f50bbfd7b0a8cc8bf0c6df02"
+            },
+            "location": "/Users/yurielokhin/bin/seminartext_translate.py",
+            "role": "translate",
+            "source_commit": "e6c5cd3a0f5e574bcceb112905cfca8f2c4a3228"
+          },
+          {
+            "digest": {
+              "algorithm": "sha256-file",
+              "value": "6adcf15e9767c36ad2d0dfe3a6a995d90c41b5f1671b4c9434a4b48f590e3856"
+            },
+            "location": "/Users/yurielokhin/bin/seminartext_modules/evidence_foundation.py",
+            "role": "evidence_foundation",
+            "source_commit": "e6c5cd3a0f5e574bcceb112905cfca8f2c4a3228"
+          },
+          {
+            "digest": {
+              "algorithm": "sha256-file",
+              "value": "39bc3191cbfa07e32b9a2526ede428289fd020e93f9bd13539321ebb39165a5f"
+            },
+            "location": "/Users/yurielokhin/bin/seminartext_modules/project_knowledge_bridge.py",
+            "role": "project_knowledge_bridge",
+            "source_commit": "e6c5cd3a0f5e574bcceb112905cfca8f2c4a3228"
+          },
+          {
+            "digest": {
+              "algorithm": "sha256-file",
+              "value": "7187819a19360fe023c9ddcc3a723ca638a1b1b74769c02c41829cd344da72dc"
+            },
+            "location": "/Users/yurielokhin/bin/seminartext_modules/human_review_workflow.py",
+            "role": "human_review_workflow",
+            "source_commit": "e6c5cd3a0f5e574bcceb112905cfca8f2c4a3228"
+          },
+          {
+            "digest": {
+              "algorithm": "sha256-file",
+              "value": "65fa98b0b1302e4af941da5f323a277784be5c5aeaef43e7751abdc81c78bfc4"
+            },
+            "location": "/Users/yurielokhin/bin/seminartext_modules/owned_tmp.py",
+            "role": "owned_tmp",
+            "source_commit": "e6c5cd3a0f5e574bcceb112905cfca8f2c4a3228"
+          },
+          {
+            "digest": {
+              "algorithm": "sha256-file",
+              "value": "def320686be777f0b66b1bbca34b1f9c29ce64f1dc4410b9494ad3fbfe741787"
+            },
+            "location": "/Users/yurielokhin/bin/seminartext_modules/group_sources.py",
+            "role": "group_sources",
+            "source_commit": "e6c5cd3a0f5e574bcceb112905cfca8f2c4a3228"
+          },
+          {
+            "digest": {
+              "algorithm": "sha256-file",
+              "value": "10dbf44d05f52f930d0120666cabdfc0a5d5a28033448de0feed8167210f8a0b"
+            },
+            "location": "/Users/yurielokhin/bin/seminartext_modules/asr_completion.py",
+            "role": "asr_completion",
+            "source_commit": "e6c5cd3a0f5e574bcceb112905cfca8f2c4a3228"
+          },
+          {
+            "digest": {
+              "algorithm": "sha256-file",
+              "value": "889e6cdf3dc2dd7504f76923c04e2d8d1eceabdb828d0c110ddc1059b107860e"
+            },
+            "location": "/Users/yurielokhin/bin/schemas/validate_canonical_evidence_v1.py",
+            "role": "canonical_validator",
+            "source_commit": "e6c5cd3a0f5e574bcceb112905cfca8f2c4a3228"
+          },
+          {
+            "digest": {
+              "algorithm": "sha256-file",
+              "value": "08bab4381ba435a059a1b58ea5dbedadd57112a18421ea7ef84a10ddb52d44b8"
+            },
+            "location": "/Users/yurielokhin/bin/schemas/canonical_evidence_v1.schema.json",
+            "role": "canonical_schema",
+            "source_commit": "e6c5cd3a0f5e574bcceb112905cfca8f2c4a3228"
+          },
+          {
+            "digest": {
+              "algorithm": "sha256-file",
+              "value": "14869b0d77bed839758afb0455cffcfcba4173495554eddd9159a02309f1c095"
+            },
+            "location": "/Users/yurielokhin/bin/schemas/validate_canonical_knowledge_v1.py",
+            "role": "canonical_knowledge_validator",
+            "source_commit": "e6c5cd3a0f5e574bcceb112905cfca8f2c4a3228"
+          },
+          {
+            "digest": {
+              "algorithm": "sha256-file",
+              "value": "33691770411b4e5fc4e923920619396f7281bcd655202f8f56ddba99b844111b"
+            },
+            "location": "/Users/yurielokhin/bin/schemas/canonical_knowledge_v1.schema.json",
+            "role": "canonical_knowledge_schema",
+            "source_commit": "e6c5cd3a0f5e574bcceb112905cfca8f2c4a3228"
+          },
+          {
+            "digest": {
+              "algorithm": "sha256-file",
+              "value": "c9133fe6ff630dd44475f40d37d731f407ce2f79d1d15613454a1d5c179099bc"
+            },
+            "location": "/Users/yurielokhin/bin/schemas/canonical_knowledge_lifecycle_v1.json",
+            "role": "canonical_knowledge_lifecycle",
+            "source_commit": "e6c5cd3a0f5e574bcceb112905cfca8f2c4a3228"
+          },
+          {
+            "digest": {
+              "algorithm": "sha256-file",
+              "value": "bd9a77e8f99f7a53de8daf9c4c697b049f4f28b10ee6b2e3e00fbd85584cb58b"
+            },
+            "location": "/Users/yurielokhin/bin/schemas/project_knowledge_input_v1.schema.json",
+            "role": "project_knowledge_input_schema",
+            "source_commit": "e6c5cd3a0f5e574bcceb112905cfca8f2c4a3228"
+          },
+          {
+            "digest": {
+              "algorithm": "sha256-file",
+              "value": "c4ad9201ee217d5d311397cea6daef8d6e6bc75c88e9c7d3ec0d129190bacec1"
+            },
+            "location": "/Users/yurielokhin/bin/schemas/topic_review_workflow_v1.schema.json",
+            "role": "topic_review_workflow_schema",
+            "source_commit": "e6c5cd3a0f5e574bcceb112905cfca8f2c4a3228"
+          },
+          {
+            "digest": {
+              "algorithm": "sha256-file",
+              "value": "7dede105b8339f46c100c8bed07ad93ace01811e8c26d3a27d204cd6692012b0"
+            },
+            "location": "/Users/yurielokhin/bin/schemas/topic_review_workflow_v2.schema.json",
+            "role": "topic_review_workflow_schema_v2",
+            "source_commit": "e6c5cd3a0f5e574bcceb112905cfca8f2c4a3228"
+          },
+          {
+            "digest": {
+              "algorithm": "sha256-file",
+              "value": "f4848125197728049a09529617ed0a3ec11971a854621fddc969b9ec62e266f8"
+            },
+            "location": "/Users/yurielokhin/bin/seminartext_modules/dataset_governance.py",
+            "role": "dataset_governance",
+            "source_commit": "e6c5cd3a0f5e574bcceb112905cfca8f2c4a3228"
+          },
+          {
+            "digest": {
+              "algorithm": "sha256-file",
+              "value": "1c1c551aec002f8ddff99ba9250aa2266d8421860d796d88aef444bd24c262a2"
+            },
+            "location": "/Users/yurielokhin/bin/governance/dataset_registry.json",
+            "role": "dataset_registry",
+            "source_commit": "e6c5cd3a0f5e574bcceb112905cfca8f2c4a3228"
+          },
+          {
+            "digest": {
+              "algorithm": "sha256-file",
+              "value": "4b52390e4efa9f4d4c3bb623e2512045cf815af80156aa95bf54305531c452b8"
+            },
+            "location": "/Users/yurielokhin/bin/seminartext_modules/topic_engine_governance.py",
+            "role": "topic_engine_governance",
+            "source_commit": "e6c5cd3a0f5e574bcceb112905cfca8f2c4a3228"
+          },
+          {
+            "digest": {
+              "algorithm": "sha256-file",
+              "value": "161a204fe43abc731679bb3479b1d957b43a81524291a85096932b5d650b3f2d"
+            },
+            "location": "/Users/yurielokhin/bin/governance/topic_engine_lifecycle.json",
+            "role": "topic_engine_lifecycle",
+            "source_commit": "e6c5cd3a0f5e574bcceb112905cfca8f2c4a3228"
+          },
+          {
+            "digest": {
+              "algorithm": "sha256-file",
+              "value": "723b0093c7f871e5ef721dd060ec639f1cc0523ba55966f0727cce101f22f300"
+            },
+            "location": "/Users/yurielokhin/bin/governance/topic_engine_freeze.json",
+            "role": "topic_engine_freeze",
+            "source_commit": "e6c5cd3a0f5e574bcceb112905cfca8f2c4a3228"
+          },
+          {
+            "digest": {
+              "algorithm": "sha256-file",
+              "value": "e1d49c569ae09b2ede16e2d83820a3809b35eb6c44c13ba9b5330598d6b8f43c"
+            },
+            "location": "/Users/yurielokhin/bin/SEMINARTEXT_VERSION",
+            "role": "version",
+            "source_commit": "e6c5cd3a0f5e574bcceb112905cfca8f2c4a3228"
+          },
+          {
+            "digest": {
+              "algorithm": "sha256-file",
+              "value": "6f46b01892f4381e59ad3f4b7573b2dd9c8c08a576ec3a3e4dcf2d44128c7235"
+            },
+            "location": "/Users/yurielokhin/bin/SEMINARTEXT_4_STATE.json",
+            "role": "state",
+            "source_commit": "e6c5cd3a0f5e574bcceb112905cfca8f2c4a3228"
+          },
+          {
+            "digest": {
+              "algorithm": "sha256-file",
+              "value": "32c8e47fed03aa2372f20ecc8b3f849e78f71e54514cda2ba6a21158d0c0faec"
+            },
+            "location": "/Users/yurielokhin/bin/SEMINARTEXT_4_ROADMAP.md",
+            "role": "roadmap",
+            "source_commit": "e6c5cd3a0f5e574bcceb112905cfca8f2c4a3228"
+          }
+        ],
+        "build": null,
+        "native_ref": "file:///Users/yurielokhin/.seminartext-deploy-backups/20261027_224215__e6c5cd3/activation-receipt.json",
+        "source_commit": "e6c5cd3a0f5e574bcceb112905cfca8f2c4a3228",
+        "version": "4.0.0"
+      },
+      "rollback_of": null,
+      "target": "file:///Users/yurielokhin/bin"
     }
   ],
   "products": {
@@ -434,7 +685,7 @@
       "unregistered_reason": "Accepted K1 CURRENT candidate 675acf457d65e7633481bcea700036b7e9ef6298e0c6d6eb097e513d3bff249f is not proven activated. READY_APP and dev app differ from its retained archive; CURRENT promotion and archive COMPLETE are not deployment."
     },
     "seminartext": {
-      "current": "sha256:47b77eeb49db91013355ad4659f804a422e74592c4ab66049da06cc271a2a3b5",
+      "current": "sha256:c7190e62601e6bbd239f0c2feaa2d2be383aee52b90c63aaf2ff711da433eb91",
       "repository": "Yurielo/seminartext",
       "unregistered_reason": null
     },
