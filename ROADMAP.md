@@ -1,7 +1,7 @@
 # Four Products — Vertical-First Development Roadmap
 
-**Status:** Owner-directed roadmap proposal recorded for governed review (2026-10-29).  
-**Authority:** This document coordinates cross-product user journeys; it does not replace product-specific roadmaps, Product Rules, native release lifecycles, or the activated-release registry. Proposed reprioritization becomes executable only after its applicable Owner/governance approval and product control-plane reconciliation.
+**Status:** Owner-approved vertical-first coordination roadmap (2026-10-29).  
+**Authority:** This document coordinates cross-product user journeys; it does not replace product-specific roadmaps, Product Rules, native release lifecycles, or the activated-release registry. The Owner has approved the S2-before-optional-Topic-Automation development priority; implementation still requires the applicable bounded scope and product control-plane reconciliation.
 
 ## North star
 
@@ -22,7 +22,7 @@ The accepted provider graph remains ST → VT, ST → Integra, VT → Integra an
 | --- | --- | --- | --- |
 | **S1 — One reviewed seminar** | A real **Стресс код** seminar has supported four-video Evidence, human-accepted Topics/Concepts/relations, a validated Canonical Knowledge result, deterministic Obsidian output and working source navigation. Unavailable registered documents and deferred claims are visible, not fabricated. | SeminarText | **Current approved Issue #68**, Draft PR #121. DOMAIN_REVIEW is pending; QA clearance is not semantic acceptance. |
 | **Checkpoint — Release / Integration Readiness** | Verify actual integration, provenance, native runtime identity, contract compatibility and outstanding gaps; do not infer production readiness from merged code. | SeminarText, with consumers only where affected | **Existing prescribed checkpoint after #68**; execute only when its existing authorization boundary is satisfied. |
-| **S2 — Second seminar enriches accepted knowledge** | A second authorized seminar proposes an existing-Concept enrichment, a human-resolved possible alias, a distinct/new Concept and a deferred/contradictory claim; accepted changes create a new immutable revision with an inspectable before/after history, exact evidence from both seminars and refreshed Obsidian projection. Replay is idempotent; stale inputs and unreviewed claims fail closed. | SeminarText | **PROPOSED ROADMAP CHANGE**: move bounded cross-seminar accumulation ahead of optional Dataset D / Topic Automation expansion. Requires explicit roadmap/scope authorization; no automatic semantic acceptance. |
+| **S2 — Second seminar enriches accepted knowledge** | A second authorized seminar proposes an existing-Concept enrichment, a human-resolved possible alias, a distinct/new Concept and a deferred/contradictory claim; accepted changes create a new immutable revision with an inspectable before/after history, exact evidence from both seminars and refreshed Obsidian projection. Replay is idempotent; stale inputs and unreviewed claims fail closed. | SeminarText | **OWNER-APPROVED ROADMAP PRIORITY**: bounded cross-seminar accumulation precedes optional Dataset D / Topic Automation expansion. A separate bounded implementation scope and semantic human decisions remain required. |
 | **S3 — Navigate accumulated knowledge in Integra** | Read-only Concept, relation, revision/history and exact source-evidence navigation from accepted SeminarText artifacts; missing/stale inputs are explicit and semantic state is not mutated. | Integra | New bounded GUI authorization and normal Integra Candidate/Owner acceptance. Existing PR #305 is a project/source/artifact browser, **not** this knowledge view. |
 
 Obsidian export is reused within S1 and S2; it is **not** a separate late milestone. A history model is part of the first cross-seminar update, not postponed until after updates.
@@ -50,7 +50,7 @@ These SHA values are evidence snapshots only. Refresh GitHub, native runtime and
 
 **Next product gate:** existing Issue #68 DOMAIN_REVIEW and subsequent accepted S1 knowledge/export evidence.
 
-**Strategic Owner gate:** approve the **proposed** S2-before-Dataset-D/Topic-Automation reprioritization. This roadmap records the proposed vertical direction but does not silently authorize a product Roadmap change or execute S2.
+**Strategic Owner decision (2026-10-29): APPROVED** — S2 precedes optional Dataset D / Topic Automation expansion. Mechanically reconcile SeminarText's authoritative Roadmap/State under its own governance before treating the new sequence as executable. This document alone does not authorize S2 implementation.
 
 **S3 gate:** separate bounded Integra GUI scope and native acceptance after actual accepted knowledge artifacts exist.
 
