@@ -1,0 +1,1486 @@
+{
+  "kind": "native_activation",
+  "native_evidence": {
+    "activated_at": "2026-11-02T21:34:09.875706+00:00",
+    "installation": {
+      "action": "deploy",
+      "backup_manifest_sha256": "dc435e01abef22edc70fe774cd6abf7b50fdae3bd88d87aace5ac8362d0fd050",
+      "components": [
+        {
+          "deployed_path": "/Users/yurielokhin/bin/seminartext_4.0_work",
+          "id": "cli",
+          "repository_path": "seminartext",
+          "sha256": "97bcbb2c7d9c6936c8fbe8efa1f5ad0b78e807eb7cea73b0f5a7b7f484889bd1"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/seminartext_topics.py",
+          "id": "topics",
+          "repository_path": "seminartext_modules/seminartext_topics.py",
+          "sha256": "d8a14e83b877024c3e016a33e594af17d512741a77735ff3d8c7d1262628c8db"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/seminartext_translate.py",
+          "id": "translate",
+          "repository_path": "seminartext_modules/seminartext_translate.py",
+          "sha256": "1f8219e00f208c46a3dbf25586ebc6b1e2c82815f50bbfd7b0a8cc8bf0c6df02"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/evidence_foundation.py",
+          "id": "evidence_foundation",
+          "repository_path": "seminartext_modules/evidence_foundation.py",
+          "sha256": "02e5fbafe334dd84d2182304bc776d59d1f70e3c5b9caf8b6a78d6f029360f0a"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/project_knowledge_bridge.py",
+          "id": "project_knowledge_bridge",
+          "repository_path": "seminartext_modules/project_knowledge_bridge.py",
+          "sha256": "39bc3191cbfa07e32b9a2526ede428289fd020e93f9bd13539321ebb39165a5f"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/human_review_workflow.py",
+          "id": "human_review_workflow",
+          "repository_path": "seminartext_modules/human_review_workflow.py",
+          "sha256": "7187819a19360fe023c9ddcc3a723ca638a1b1b74769c02c41829cd344da72dc"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/owned_tmp.py",
+          "id": "owned_tmp",
+          "repository_path": "seminartext_modules/owned_tmp.py",
+          "sha256": "65fa98b0b1302e4af941da5f323a277784be5c5aeaef43e7751abdc81c78bfc4"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/group_sources.py",
+          "id": "group_sources",
+          "repository_path": "seminartext_modules/group_sources.py",
+          "sha256": "def320686be777f0b66b1bbca34b1f9c29ce64f1dc4410b9494ad3fbfe741787"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/asr_completion.py",
+          "id": "asr_completion",
+          "repository_path": "seminartext_modules/asr_completion.py",
+          "sha256": "10dbf44d05f52f930d0120666cabdfc0a5d5a28033448de0feed8167210f8a0b"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/schemas/validate_canonical_evidence_v1.py",
+          "id": "canonical_validator",
+          "repository_path": "schemas/validate_canonical_evidence_v1.py",
+          "sha256": "889e6cdf3dc2dd7504f76923c04e2d8d1eceabdb828d0c110ddc1059b107860e"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/schemas/canonical_evidence_v1.schema.json",
+          "id": "canonical_schema",
+          "repository_path": "schemas/canonical_evidence_v1.schema.json",
+          "sha256": "08bab4381ba435a059a1b58ea5dbedadd57112a18421ea7ef84a10ddb52d44b8"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/schemas/validate_canonical_knowledge_v1.py",
+          "id": "canonical_knowledge_validator",
+          "repository_path": "schemas/validate_canonical_knowledge_v1.py",
+          "sha256": "14869b0d77bed839758afb0455cffcfcba4173495554eddd9159a02309f1c095"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/schemas/canonical_knowledge_v1.schema.json",
+          "id": "canonical_knowledge_schema",
+          "repository_path": "schemas/canonical_knowledge_v1.schema.json",
+          "sha256": "33691770411b4e5fc4e923920619396f7281bcd655202f8f56ddba99b844111b"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/schemas/canonical_knowledge_lifecycle_v1.json",
+          "id": "canonical_knowledge_lifecycle",
+          "repository_path": "schemas/canonical_knowledge_lifecycle_v1.json",
+          "sha256": "c9133fe6ff630dd44475f40d37d731f407ce2f79d1d15613454a1d5c179099bc"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/schemas/project_knowledge_input_v1.schema.json",
+          "id": "project_knowledge_input_schema",
+          "repository_path": "schemas/project_knowledge_input_v1.schema.json",
+          "sha256": "bd9a77e8f99f7a53de8daf9c4c697b049f4f28b10ee6b2e3e00fbd85584cb58b"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/schemas/topic_review_workflow_v1.schema.json",
+          "id": "topic_review_workflow_schema",
+          "repository_path": "schemas/topic_review_workflow_v1.schema.json",
+          "sha256": "c4ad9201ee217d5d311397cea6daef8d6e6bc75c88e9c7d3ec0d129190bacec1"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/schemas/topic_review_workflow_v2.schema.json",
+          "id": "topic_review_workflow_schema_v2",
+          "repository_path": "schemas/topic_review_workflow_v2.schema.json",
+          "sha256": "7dede105b8339f46c100c8bed07ad93ace01811e8c26d3a27d204cd6692012b0"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/dataset_governance.py",
+          "id": "dataset_governance",
+          "repository_path": "seminartext_modules/dataset_governance.py",
+          "sha256": "f4848125197728049a09529617ed0a3ec11971a854621fddc969b9ec62e266f8"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/governance/dataset_registry.json",
+          "id": "dataset_registry",
+          "repository_path": "governance/dataset_registry.json",
+          "sha256": "1c1c551aec002f8ddff99ba9250aa2266d8421860d796d88aef444bd24c262a2"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/topic_engine_governance.py",
+          "id": "topic_engine_governance",
+          "repository_path": "seminartext_modules/topic_engine_governance.py",
+          "sha256": "4b52390e4efa9f4d4c3bb623e2512045cf815af80156aa95bf54305531c452b8"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/governance/topic_engine_lifecycle.json",
+          "id": "topic_engine_lifecycle",
+          "repository_path": "governance/topic_engine_lifecycle.json",
+          "sha256": "161a204fe43abc731679bb3479b1d957b43a81524291a85096932b5d650b3f2d"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/governance/topic_engine_freeze.json",
+          "id": "topic_engine_freeze",
+          "repository_path": "governance/topic_engine_freeze.json",
+          "sha256": "723b0093c7f871e5ef721dd060ec639f1cc0523ba55966f0727cce101f22f300"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/SEMINARTEXT_VERSION",
+          "id": "version",
+          "repository_path": "SEMINARTEXT_VERSION",
+          "sha256": "e1d49c569ae09b2ede16e2d83820a3809b35eb6c44c13ba9b5330598d6b8f43c"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/SEMINARTEXT_4_STATE.json",
+          "id": "state",
+          "repository_path": "SEMINARTEXT_4_STATE.json",
+          "sha256": "500196061563a559a288aa59c004024a1c118e47ae63274d2752c118c3bf4cf5"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/SEMINARTEXT_4_ROADMAP.md",
+          "id": "roadmap",
+          "repository_path": "SEMINARTEXT_4_ROADMAP.md",
+          "sha256": "e7f304374ceb94240b12fe4e0c3d675be7d662c016039ae7611d2c3737b6f7a3"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/automatic_topic_review.py",
+          "id": "automatic_topic_review",
+          "repository_path": "seminartext_modules/automatic_topic_review.py",
+          "sha256": "40966f5c347be5b977fa4a7cd1db5f15e44591545548f9197ccf1642d7a70b17"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/batch_topic_review.py",
+          "id": "batch_topic_review",
+          "repository_path": "seminartext_modules/batch_topic_review.py",
+          "sha256": "ebed6ed393cf8678038adf037b3ebd34af713c19bd90d1fe19c46786066413f5"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/media_to_review.py",
+          "id": "media_to_review",
+          "repository_path": "seminartext_modules/media_to_review.py",
+          "sha256": "de7da639825206dd0c4b2ced67e09bbffd8ff652fe7f23f078fca2ce103e32ee"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/media_alignment.py",
+          "id": "media_alignment",
+          "repository_path": "seminartext_modules/media_alignment.py",
+          "sha256": "f6ccaddfe6363ece193f318c3a595cf0b47d40397fa1862a371a30e5483609e6"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/reviewed_knowledge_admission.py",
+          "id": "reviewed_knowledge_admission",
+          "repository_path": "seminartext_modules/reviewed_knowledge_admission.py",
+          "sha256": "c032849beb220785198d3105406ee7da831fb058583061c8eefe9c8bfb9c8b5f"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/seminartext_topics.py",
+          "id": "topic_review_engine",
+          "repository_path": "seminartext_modules/seminartext_topics.py",
+          "sha256": "d8a14e83b877024c3e016a33e594af17d512741a77735ff3d8c7d1262628c8db"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/analysis/word_alignment_decision/run_whisperx_existing_text.py",
+          "id": "existing_alignment_producer",
+          "repository_path": "analysis/word_alignment_decision/run_whisperx_existing_text.py",
+          "sha256": "a6b4c607edc3b3b31a1333fc07d3c8f8da4afdf887091806dc9e62220e5b8aa4"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/requirements-alignment.txt",
+          "id": "alignment_requirements",
+          "repository_path": "requirements-alignment.txt",
+          "sha256": "5b3bb5b0f7e3728b8aa0e3b9eb5b4a0f2956d3527ea25dcbc7efa259d67e0157"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/dependencies/dependency_profiles.json",
+          "id": "dependency_profiles",
+          "repository_path": "dependencies/dependency_profiles.json",
+          "sha256": "eb07912f92b44e063525b416517169845999fa5074635899f7382426b221e0dc"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/dependencies/locks/alignment-py3.13.lock",
+          "id": "alignment_lock",
+          "repository_path": "dependencies/locks/alignment-py3.13.lock",
+          "sha256": "37d68bbe75b37545fb737a5ca85b7b45595dcce7825f65b44e41dc04543116e4"
+        },
+        {
+          "deployed_path": "/Users/yurielokhin/bin/schemas/reviewed_knowledge_admission_v1.schema.json",
+          "id": "reviewed_knowledge_admission_schema",
+          "repository_path": "schemas/reviewed_knowledge_admission_v1.schema.json",
+          "sha256": "8a2bc43300086a04a8d8c2ab19b3b5b895610f00a20ac28393d187e3d69ab1c5"
+        }
+      ],
+      "contract_sha256": "0d5b1b771607e6591f90e1268956b236f99be2c40fdb7bf9d97ea72dd045cb99",
+      "deployment_dir": "/Users/yurielokhin/bin",
+      "installation_verified_at": "2026-11-02T21:30:12.508345+00:00",
+      "mutation_id": "dbc48d821e16472a8a31deb81a7e8e06",
+      "native_deploy": "scripts/seminartext-dev deploy",
+      "native_hash_and_functional_smoke": "PASS",
+      "phase": "INSTALLATION_VERIFIED",
+      "registry_base_head": "005e2a66b930935cb011672bd9cc5afe0b3ed860",
+      "registry_base_observation": "REMOTE_CONFIRMED_BEFORE_MUTATION",
+      "schema_version": 1,
+      "source_commit": "9c99028ea15388a3850770c7cfe6c816406c4335",
+      "source_root": "/Users/yurielokhin/Documents/Codex/seminartext-repair-20261102/deploy-source",
+      "started_at": "2026-11-02T21:30:07.866772+00:00",
+      "version": "4.0.0"
+    },
+    "integrity": {
+      "bootstrap_implementation": "PASS",
+      "control_plane_reconciled": true,
+      "deployment_dir": "/Users/yurielokhin/bin",
+      "exit_code": 0,
+      "gates": [
+        {
+          "evidence": {
+            "ahead": 0,
+            "behind": 0,
+            "branch": "main",
+            "dirty_entries": [],
+            "head_sha": "9c99028ea15388a3850770c7cfe6c816406c4335",
+            "origin_contact_attempted": false,
+            "origin_main_available_locally": true,
+            "origin_main_relation": "CURRENT_OR_AHEAD",
+            "repository_root": "/Users/yurielokhin/Documents/Codex/seminartext-repair-20261102/deploy-source",
+            "required_runtime_components": [
+              {
+                "exists": true,
+                "id": "cli",
+                "path": "seminartext",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "topics",
+                "path": "seminartext_modules/seminartext_topics.py",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "translate",
+                "path": "seminartext_modules/seminartext_translate.py",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "evidence_foundation",
+                "path": "seminartext_modules/evidence_foundation.py",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "project_knowledge_bridge",
+                "path": "seminartext_modules/project_knowledge_bridge.py",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "human_review_workflow",
+                "path": "seminartext_modules/human_review_workflow.py",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "owned_tmp",
+                "path": "seminartext_modules/owned_tmp.py",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "group_sources",
+                "path": "seminartext_modules/group_sources.py",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "asr_completion",
+                "path": "seminartext_modules/asr_completion.py",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "canonical_validator",
+                "path": "schemas/validate_canonical_evidence_v1.py",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "canonical_schema",
+                "path": "schemas/canonical_evidence_v1.schema.json",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "canonical_knowledge_validator",
+                "path": "schemas/validate_canonical_knowledge_v1.py",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "canonical_knowledge_schema",
+                "path": "schemas/canonical_knowledge_v1.schema.json",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "canonical_knowledge_lifecycle",
+                "path": "schemas/canonical_knowledge_lifecycle_v1.json",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "project_knowledge_input_schema",
+                "path": "schemas/project_knowledge_input_v1.schema.json",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "topic_review_workflow_schema",
+                "path": "schemas/topic_review_workflow_v1.schema.json",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "topic_review_workflow_schema_v2",
+                "path": "schemas/topic_review_workflow_v2.schema.json",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "dataset_governance",
+                "path": "seminartext_modules/dataset_governance.py",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "dataset_registry",
+                "path": "governance/dataset_registry.json",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "topic_engine_governance",
+                "path": "seminartext_modules/topic_engine_governance.py",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "topic_engine_lifecycle",
+                "path": "governance/topic_engine_lifecycle.json",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "topic_engine_freeze",
+                "path": "governance/topic_engine_freeze.json",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "version",
+                "path": "SEMINARTEXT_VERSION",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "state",
+                "path": "SEMINARTEXT_4_STATE.json",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "roadmap",
+                "path": "SEMINARTEXT_4_ROADMAP.md",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "automatic_topic_review",
+                "path": "seminartext_modules/automatic_topic_review.py",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "batch_topic_review",
+                "path": "seminartext_modules/batch_topic_review.py",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "media_to_review",
+                "path": "seminartext_modules/media_to_review.py",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "media_alignment",
+                "path": "seminartext_modules/media_alignment.py",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "reviewed_knowledge_admission",
+                "path": "seminartext_modules/reviewed_knowledge_admission.py",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "topic_review_engine",
+                "path": "seminartext_modules/seminartext_topics.py",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "existing_alignment_producer",
+                "path": "analysis/word_alignment_decision/run_whisperx_existing_text.py",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "alignment_requirements",
+                "path": "requirements-alignment.txt",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "dependency_profiles",
+                "path": "dependencies/dependency_profiles.json",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "alignment_lock",
+                "path": "dependencies/locks/alignment-py3.13.lock",
+                "tracked": true
+              },
+              {
+                "exists": true,
+                "id": "reviewed_knowledge_admission_schema",
+                "path": "schemas/reviewed_knowledge_admission_v1.schema.json",
+                "tracked": true
+              }
+            ],
+            "working_tree_clean": true
+          },
+          "id": "G1",
+          "name": "Git Truth",
+          "reason": "local Git truth invariants pass",
+          "status": "PASS"
+        },
+        {
+          "evidence": {
+            "components": [
+              {
+                "deployed_path": "/Users/yurielokhin/bin/seminartext_4.0_work",
+                "deployed_sha256": "97bcbb2c7d9c6936c8fbe8efa1f5ad0b78e807eb7cea73b0f5a7b7f484889bd1",
+                "deployment_status": "SYNC",
+                "id": "cli",
+                "repository_path": "seminartext",
+                "repository_sha256": "97bcbb2c7d9c6936c8fbe8efa1f5ad0b78e807eb7cea73b0f5a7b7f484889bd1"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/seminartext_topics.py",
+                "deployed_sha256": "d8a14e83b877024c3e016a33e594af17d512741a77735ff3d8c7d1262628c8db",
+                "deployment_status": "SYNC",
+                "id": "topics",
+                "repository_path": "seminartext_modules/seminartext_topics.py",
+                "repository_sha256": "d8a14e83b877024c3e016a33e594af17d512741a77735ff3d8c7d1262628c8db"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/seminartext_translate.py",
+                "deployed_sha256": "1f8219e00f208c46a3dbf25586ebc6b1e2c82815f50bbfd7b0a8cc8bf0c6df02",
+                "deployment_status": "SYNC",
+                "id": "translate",
+                "repository_path": "seminartext_modules/seminartext_translate.py",
+                "repository_sha256": "1f8219e00f208c46a3dbf25586ebc6b1e2c82815f50bbfd7b0a8cc8bf0c6df02"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/evidence_foundation.py",
+                "deployed_sha256": "02e5fbafe334dd84d2182304bc776d59d1f70e3c5b9caf8b6a78d6f029360f0a",
+                "deployment_status": "SYNC",
+                "id": "evidence_foundation",
+                "repository_path": "seminartext_modules/evidence_foundation.py",
+                "repository_sha256": "02e5fbafe334dd84d2182304bc776d59d1f70e3c5b9caf8b6a78d6f029360f0a"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/project_knowledge_bridge.py",
+                "deployed_sha256": "39bc3191cbfa07e32b9a2526ede428289fd020e93f9bd13539321ebb39165a5f",
+                "deployment_status": "SYNC",
+                "id": "project_knowledge_bridge",
+                "repository_path": "seminartext_modules/project_knowledge_bridge.py",
+                "repository_sha256": "39bc3191cbfa07e32b9a2526ede428289fd020e93f9bd13539321ebb39165a5f"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/human_review_workflow.py",
+                "deployed_sha256": "7187819a19360fe023c9ddcc3a723ca638a1b1b74769c02c41829cd344da72dc",
+                "deployment_status": "SYNC",
+                "id": "human_review_workflow",
+                "repository_path": "seminartext_modules/human_review_workflow.py",
+                "repository_sha256": "7187819a19360fe023c9ddcc3a723ca638a1b1b74769c02c41829cd344da72dc"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/owned_tmp.py",
+                "deployed_sha256": "65fa98b0b1302e4af941da5f323a277784be5c5aeaef43e7751abdc81c78bfc4",
+                "deployment_status": "SYNC",
+                "id": "owned_tmp",
+                "repository_path": "seminartext_modules/owned_tmp.py",
+                "repository_sha256": "65fa98b0b1302e4af941da5f323a277784be5c5aeaef43e7751abdc81c78bfc4"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/group_sources.py",
+                "deployed_sha256": "def320686be777f0b66b1bbca34b1f9c29ce64f1dc4410b9494ad3fbfe741787",
+                "deployment_status": "SYNC",
+                "id": "group_sources",
+                "repository_path": "seminartext_modules/group_sources.py",
+                "repository_sha256": "def320686be777f0b66b1bbca34b1f9c29ce64f1dc4410b9494ad3fbfe741787"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/asr_completion.py",
+                "deployed_sha256": "10dbf44d05f52f930d0120666cabdfc0a5d5a28033448de0feed8167210f8a0b",
+                "deployment_status": "SYNC",
+                "id": "asr_completion",
+                "repository_path": "seminartext_modules/asr_completion.py",
+                "repository_sha256": "10dbf44d05f52f930d0120666cabdfc0a5d5a28033448de0feed8167210f8a0b"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/schemas/validate_canonical_evidence_v1.py",
+                "deployed_sha256": "889e6cdf3dc2dd7504f76923c04e2d8d1eceabdb828d0c110ddc1059b107860e",
+                "deployment_status": "SYNC",
+                "id": "canonical_validator",
+                "repository_path": "schemas/validate_canonical_evidence_v1.py",
+                "repository_sha256": "889e6cdf3dc2dd7504f76923c04e2d8d1eceabdb828d0c110ddc1059b107860e"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/schemas/canonical_evidence_v1.schema.json",
+                "deployed_sha256": "08bab4381ba435a059a1b58ea5dbedadd57112a18421ea7ef84a10ddb52d44b8",
+                "deployment_status": "SYNC",
+                "id": "canonical_schema",
+                "repository_path": "schemas/canonical_evidence_v1.schema.json",
+                "repository_sha256": "08bab4381ba435a059a1b58ea5dbedadd57112a18421ea7ef84a10ddb52d44b8"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/schemas/validate_canonical_knowledge_v1.py",
+                "deployed_sha256": "14869b0d77bed839758afb0455cffcfcba4173495554eddd9159a02309f1c095",
+                "deployment_status": "SYNC",
+                "id": "canonical_knowledge_validator",
+                "repository_path": "schemas/validate_canonical_knowledge_v1.py",
+                "repository_sha256": "14869b0d77bed839758afb0455cffcfcba4173495554eddd9159a02309f1c095"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/schemas/canonical_knowledge_v1.schema.json",
+                "deployed_sha256": "33691770411b4e5fc4e923920619396f7281bcd655202f8f56ddba99b844111b",
+                "deployment_status": "SYNC",
+                "id": "canonical_knowledge_schema",
+                "repository_path": "schemas/canonical_knowledge_v1.schema.json",
+                "repository_sha256": "33691770411b4e5fc4e923920619396f7281bcd655202f8f56ddba99b844111b"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/schemas/canonical_knowledge_lifecycle_v1.json",
+                "deployed_sha256": "c9133fe6ff630dd44475f40d37d731f407ce2f79d1d15613454a1d5c179099bc",
+                "deployment_status": "SYNC",
+                "id": "canonical_knowledge_lifecycle",
+                "repository_path": "schemas/canonical_knowledge_lifecycle_v1.json",
+                "repository_sha256": "c9133fe6ff630dd44475f40d37d731f407ce2f79d1d15613454a1d5c179099bc"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/schemas/project_knowledge_input_v1.schema.json",
+                "deployed_sha256": "bd9a77e8f99f7a53de8daf9c4c697b049f4f28b10ee6b2e3e00fbd85584cb58b",
+                "deployment_status": "SYNC",
+                "id": "project_knowledge_input_schema",
+                "repository_path": "schemas/project_knowledge_input_v1.schema.json",
+                "repository_sha256": "bd9a77e8f99f7a53de8daf9c4c697b049f4f28b10ee6b2e3e00fbd85584cb58b"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/schemas/topic_review_workflow_v1.schema.json",
+                "deployed_sha256": "c4ad9201ee217d5d311397cea6daef8d6e6bc75c88e9c7d3ec0d129190bacec1",
+                "deployment_status": "SYNC",
+                "id": "topic_review_workflow_schema",
+                "repository_path": "schemas/topic_review_workflow_v1.schema.json",
+                "repository_sha256": "c4ad9201ee217d5d311397cea6daef8d6e6bc75c88e9c7d3ec0d129190bacec1"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/schemas/topic_review_workflow_v2.schema.json",
+                "deployed_sha256": "7dede105b8339f46c100c8bed07ad93ace01811e8c26d3a27d204cd6692012b0",
+                "deployment_status": "SYNC",
+                "id": "topic_review_workflow_schema_v2",
+                "repository_path": "schemas/topic_review_workflow_v2.schema.json",
+                "repository_sha256": "7dede105b8339f46c100c8bed07ad93ace01811e8c26d3a27d204cd6692012b0"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/dataset_governance.py",
+                "deployed_sha256": "f4848125197728049a09529617ed0a3ec11971a854621fddc969b9ec62e266f8",
+                "deployment_status": "SYNC",
+                "id": "dataset_governance",
+                "repository_path": "seminartext_modules/dataset_governance.py",
+                "repository_sha256": "f4848125197728049a09529617ed0a3ec11971a854621fddc969b9ec62e266f8"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/governance/dataset_registry.json",
+                "deployed_sha256": "1c1c551aec002f8ddff99ba9250aa2266d8421860d796d88aef444bd24c262a2",
+                "deployment_status": "SYNC",
+                "id": "dataset_registry",
+                "repository_path": "governance/dataset_registry.json",
+                "repository_sha256": "1c1c551aec002f8ddff99ba9250aa2266d8421860d796d88aef444bd24c262a2"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/topic_engine_governance.py",
+                "deployed_sha256": "4b52390e4efa9f4d4c3bb623e2512045cf815af80156aa95bf54305531c452b8",
+                "deployment_status": "SYNC",
+                "id": "topic_engine_governance",
+                "repository_path": "seminartext_modules/topic_engine_governance.py",
+                "repository_sha256": "4b52390e4efa9f4d4c3bb623e2512045cf815af80156aa95bf54305531c452b8"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/governance/topic_engine_lifecycle.json",
+                "deployed_sha256": "161a204fe43abc731679bb3479b1d957b43a81524291a85096932b5d650b3f2d",
+                "deployment_status": "SYNC",
+                "id": "topic_engine_lifecycle",
+                "repository_path": "governance/topic_engine_lifecycle.json",
+                "repository_sha256": "161a204fe43abc731679bb3479b1d957b43a81524291a85096932b5d650b3f2d"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/governance/topic_engine_freeze.json",
+                "deployed_sha256": "723b0093c7f871e5ef721dd060ec639f1cc0523ba55966f0727cce101f22f300",
+                "deployment_status": "SYNC",
+                "id": "topic_engine_freeze",
+                "repository_path": "governance/topic_engine_freeze.json",
+                "repository_sha256": "723b0093c7f871e5ef721dd060ec639f1cc0523ba55966f0727cce101f22f300"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/SEMINARTEXT_VERSION",
+                "deployed_sha256": "e1d49c569ae09b2ede16e2d83820a3809b35eb6c44c13ba9b5330598d6b8f43c",
+                "deployment_status": "SYNC",
+                "id": "version",
+                "repository_path": "SEMINARTEXT_VERSION",
+                "repository_sha256": "e1d49c569ae09b2ede16e2d83820a3809b35eb6c44c13ba9b5330598d6b8f43c"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/SEMINARTEXT_4_STATE.json",
+                "deployed_sha256": "500196061563a559a288aa59c004024a1c118e47ae63274d2752c118c3bf4cf5",
+                "deployment_status": "SYNC",
+                "id": "state",
+                "repository_path": "SEMINARTEXT_4_STATE.json",
+                "repository_sha256": "500196061563a559a288aa59c004024a1c118e47ae63274d2752c118c3bf4cf5"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/SEMINARTEXT_4_ROADMAP.md",
+                "deployed_sha256": "e7f304374ceb94240b12fe4e0c3d675be7d662c016039ae7611d2c3737b6f7a3",
+                "deployment_status": "SYNC",
+                "id": "roadmap",
+                "repository_path": "SEMINARTEXT_4_ROADMAP.md",
+                "repository_sha256": "e7f304374ceb94240b12fe4e0c3d675be7d662c016039ae7611d2c3737b6f7a3"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/automatic_topic_review.py",
+                "deployed_sha256": "40966f5c347be5b977fa4a7cd1db5f15e44591545548f9197ccf1642d7a70b17",
+                "deployment_status": "SYNC",
+                "id": "automatic_topic_review",
+                "repository_path": "seminartext_modules/automatic_topic_review.py",
+                "repository_sha256": "40966f5c347be5b977fa4a7cd1db5f15e44591545548f9197ccf1642d7a70b17"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/batch_topic_review.py",
+                "deployed_sha256": "ebed6ed393cf8678038adf037b3ebd34af713c19bd90d1fe19c46786066413f5",
+                "deployment_status": "SYNC",
+                "id": "batch_topic_review",
+                "repository_path": "seminartext_modules/batch_topic_review.py",
+                "repository_sha256": "ebed6ed393cf8678038adf037b3ebd34af713c19bd90d1fe19c46786066413f5"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/media_to_review.py",
+                "deployed_sha256": "de7da639825206dd0c4b2ced67e09bbffd8ff652fe7f23f078fca2ce103e32ee",
+                "deployment_status": "SYNC",
+                "id": "media_to_review",
+                "repository_path": "seminartext_modules/media_to_review.py",
+                "repository_sha256": "de7da639825206dd0c4b2ced67e09bbffd8ff652fe7f23f078fca2ce103e32ee"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/media_alignment.py",
+                "deployed_sha256": "f6ccaddfe6363ece193f318c3a595cf0b47d40397fa1862a371a30e5483609e6",
+                "deployment_status": "SYNC",
+                "id": "media_alignment",
+                "repository_path": "seminartext_modules/media_alignment.py",
+                "repository_sha256": "f6ccaddfe6363ece193f318c3a595cf0b47d40397fa1862a371a30e5483609e6"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/reviewed_knowledge_admission.py",
+                "deployed_sha256": "c032849beb220785198d3105406ee7da831fb058583061c8eefe9c8bfb9c8b5f",
+                "deployment_status": "SYNC",
+                "id": "reviewed_knowledge_admission",
+                "repository_path": "seminartext_modules/reviewed_knowledge_admission.py",
+                "repository_sha256": "c032849beb220785198d3105406ee7da831fb058583061c8eefe9c8bfb9c8b5f"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/seminartext_modules/seminartext_topics.py",
+                "deployed_sha256": "d8a14e83b877024c3e016a33e594af17d512741a77735ff3d8c7d1262628c8db",
+                "deployment_status": "SYNC",
+                "id": "topic_review_engine",
+                "repository_path": "seminartext_modules/seminartext_topics.py",
+                "repository_sha256": "d8a14e83b877024c3e016a33e594af17d512741a77735ff3d8c7d1262628c8db"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/analysis/word_alignment_decision/run_whisperx_existing_text.py",
+                "deployed_sha256": "a6b4c607edc3b3b31a1333fc07d3c8f8da4afdf887091806dc9e62220e5b8aa4",
+                "deployment_status": "SYNC",
+                "id": "existing_alignment_producer",
+                "repository_path": "analysis/word_alignment_decision/run_whisperx_existing_text.py",
+                "repository_sha256": "a6b4c607edc3b3b31a1333fc07d3c8f8da4afdf887091806dc9e62220e5b8aa4"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/requirements-alignment.txt",
+                "deployed_sha256": "5b3bb5b0f7e3728b8aa0e3b9eb5b4a0f2956d3527ea25dcbc7efa259d67e0157",
+                "deployment_status": "SYNC",
+                "id": "alignment_requirements",
+                "repository_path": "requirements-alignment.txt",
+                "repository_sha256": "5b3bb5b0f7e3728b8aa0e3b9eb5b4a0f2956d3527ea25dcbc7efa259d67e0157"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/dependencies/dependency_profiles.json",
+                "deployed_sha256": "eb07912f92b44e063525b416517169845999fa5074635899f7382426b221e0dc",
+                "deployment_status": "SYNC",
+                "id": "dependency_profiles",
+                "repository_path": "dependencies/dependency_profiles.json",
+                "repository_sha256": "eb07912f92b44e063525b416517169845999fa5074635899f7382426b221e0dc"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/dependencies/locks/alignment-py3.13.lock",
+                "deployed_sha256": "37d68bbe75b37545fb737a5ca85b7b45595dcce7825f65b44e41dc04543116e4",
+                "deployment_status": "SYNC",
+                "id": "alignment_lock",
+                "repository_path": "dependencies/locks/alignment-py3.13.lock",
+                "repository_sha256": "37d68bbe75b37545fb737a5ca85b7b45595dcce7825f65b44e41dc04543116e4"
+              },
+              {
+                "deployed_path": "/Users/yurielokhin/bin/schemas/reviewed_knowledge_admission_v1.schema.json",
+                "deployed_sha256": "8a2bc43300086a04a8d8c2ab19b3b5b895610f00a20ac28393d187e3d69ab1c5",
+                "deployment_status": "SYNC",
+                "id": "reviewed_knowledge_admission_schema",
+                "repository_path": "schemas/reviewed_knowledge_admission_v1.schema.json",
+                "repository_sha256": "8a2bc43300086a04a8d8c2ab19b3b5b895610f00a20ac28393d187e3d69ab1c5"
+              }
+            ],
+            "deployment_detected": true,
+            "deployment_dir": "/Users/yurielokhin/bin",
+            "functional_smoke": {
+              "checks": [
+                {
+                  "command": [
+                    "/Users/yurielokhin/bin/seminartext_4.0_work",
+                    "project-evidence-check",
+                    "--help"
+                  ],
+                  "returncode": 0,
+                  "status": "PASS",
+                  "stderr": "",
+                  "stdout": "usage: evidence_foundation.py evidence-check [-h] [--bundle BUNDLE]\n                                             [--cross-record-only] [--json]\n                                             project\n\npositional arguments:\n  project\n\noptions:\n  -h, --help           show this help message and exit\n  --bundle BUNDLE\n  --cross-record-only\n  --json\n"
+                },
+                {
+                  "command": [
+                    "/Users/yurielokhin/bin/seminartext_4.0_work",
+                    "project-obsidian-export",
+                    "--help"
+                  ],
+                  "returncode": 0,
+                  "status": "PASS",
+                  "stderr": "",
+                  "stdout": "usage: project_knowledge_bridge.py [-h] --knowledge-input KNOWLEDGE_INPUT\n                                   --destination DESTINATION\n                                   [--source-resolver SOURCE_RESOLVER]\n                                   [--dry-run]\n                                   project\n\nCompile explicit project knowledge into a safe Obsidian derived view. The\nbridge is deliberately non-semantic: Topics, Concepts, Relations and\nReviewDecisions must be supplied explicitly. It only validates references,\nderives evidence quotes/locators from Canonical Evidence, and renders a\ndeterministic managed view.\n\npositional arguments:\n  project\n\noptions:\n  -h, --help            show this help message and exit\n  --knowledge-input KNOWLEDGE_INPUT\n  --destination DESTINATION\n  --source-resolver SOURCE_RESOLVER\n  --dry-run\n"
+                },
+                {
+                  "command": [
+                    "/Users/yurielokhin/bin/seminartext_4.0_work",
+                    "dataset-policy-check",
+                    "A",
+                    "gold_read",
+                    "--json"
+                  ],
+                  "returncode": 0,
+                  "status": "PASS",
+                  "stderr": "",
+                  "stdout": "{\n  \"allowed\": true,\n  \"dataset_id\": \"A\",\n  \"operation\": \"gold_read\",\n  \"reason\": \"operation explicitly allowed by Dataset Registry\",\n  \"role\": \"DEVELOPMENT_CALIBRATION\",\n  \"lock_status\": \"OPEN_DEVELOPMENT\",\n  \"registry_path\": \"/Users/yurielokhin/bin/governance/dataset_registry.json\"\n}\n"
+                },
+                {
+                  "command": [
+                    "/Users/yurielokhin/.seminartext-venv/bin/python",
+                    "/Users/yurielokhin/bin/seminartext_modules/topic_engine_governance.py",
+                    "validate",
+                    "--lifecycle",
+                    "/Users/yurielokhin/bin/governance/topic_engine_lifecycle.json",
+                    "--deployed",
+                    "--json"
+                  ],
+                  "returncode": 0,
+                  "status": "PASS",
+                  "stderr": "",
+                  "stdout": "{\n  \"status\": \"PASS\",\n  \"errors\": []\n}\n"
+                },
+                {
+                  "command": [
+                    "/Users/yurielokhin/.seminartext-venv/bin/python",
+                    "/Users/yurielokhin/bin/seminartext_modules/topic_engine_governance.py",
+                    "freeze-check",
+                    "--freeze",
+                    "/Users/yurielokhin/bin/governance/topic_engine_freeze.json",
+                    "--dataset-registry",
+                    "/Users/yurielokhin/bin/governance/dataset_registry.json",
+                    "--lifecycle",
+                    "/Users/yurielokhin/bin/governance/topic_engine_lifecycle.json",
+                    "--deployed",
+                    "--json"
+                  ],
+                  "returncode": 0,
+                  "status": "PASS",
+                  "stderr": "",
+                  "stdout": "{\n  \"status\": \"PASS\",\n  \"topic_candidate_freeze\": \"COMPLETE\",\n  \"dataset_d_access\": \"BLOCKED\",\n  \"dataset_d_open_allowed\": false,\n  \"checks\": {\n    \"product_owner_decision\": true,\n    \"product_owner_disposition\": true,\n    \"product_owner_authority\": true,\n    \"freeze_status\": true,\n    \"candidate_frozen\": true,\n    \"candidate_selected\": true,\n    \"candidate_not_promoted\": true,\n    \"candidate_implementation_binding\": true,\n    \"candidate_code_hash_bound\": true,\n    \"candidate_code_verification\": true,\n    \"candidate_model_digest_bound\": true,\n    \"configuration_frozen\": true,\n    \"configuration_hash_bound\": true,\n    \"acceptance_criteria_frozen\": true,\n    \"acceptance_criteria_hash_bound\": true,\n    \"analysis_plan_frozen\": true,\n    \"analysis_plan_hash_bound\": true,\n    \"lifecycle_validation\": true\n  },\n  \"dataset_d_checks\": {\n    \"dataset_d_locked_test\": true,\n    \"dataset_d_prediction_access_denied\": true,\n    \"dataset_d_source_identity_recorded\": false,\n    \"dataset_d_source_quality_accepted\": false,\n    \"single_blind_run_authorized\": false\n  },\n  \"lifecycle_errors\": [],\n  \"implementation_verification\": \"GOVERNED_HASH_ATTESTATION\",\n  \"freeze_path\": \"/Users/yurielokhin/bin/governance/topic_engine_freeze.json\",\n  \"freeze_sha256\": \"723b0093c7f871e5ef721dd060ec639f1cc0523ba55966f0727cce101f22f300\",\n  \"dataset_registry_path\": \"/Users/yurielokhin/bin/governance/dataset_registry.json\"\n}\n"
+                }
+              ],
+              "status": "PASS"
+            },
+            "repository_root": "/Users/yurielokhin/Documents/Codex/seminartext-repair-20261102/deploy-source",
+            "repository_version": "4.0.0"
+          },
+          "id": "G2",
+          "name": "Runtime Truth",
+          "reason": "detected installed runtime is byte-identical and governed dispatch smokes passed",
+          "status": "PASS"
+        },
+        {
+          "evidence": {
+            "command": [
+              "/Users/yurielokhin/Documents/seminartext/.venv-test-68/bin/python",
+              "/Users/yurielokhin/Documents/Codex/seminartext-repair-20261102/deploy-source/scripts/check_governance.py",
+              "--root",
+              "/Users/yurielokhin/Documents/Codex/seminartext-repair-20261102/deploy-source"
+            ],
+            "control_plane": {
+              "contract_version": "2026-10-29.issue-68-progress",
+              "control_plane_reconciled": true,
+              "current_milestone_id": "issue_68_real_multi_source_vertical_slice",
+              "g3_errors": [],
+              "g8_errors": [],
+              "github_lifecycle_check": "NOT_RUN",
+              "human_gate": "AUTO_UNTIL_DOMAIN_REVIEW",
+              "lifecycle_state": "IN_PROGRESS",
+              "next_issue_allowed": false
+            },
+            "exit_code": 0,
+            "governed_hashes_after": {
+              ".github/ISSUE_TEMPLATE.md": "8630684e9222daad4d59af525d550ceda84f06d940c463d1564fd320be5bacff",
+              ".github/PULL_REQUEST_TEMPLATE.md": "b60812ed37ef901b77aae44612c451a05a4b6e1bf6641fa7eaf191ecb7d6c766",
+              ".github/workflows/ci.yml": "66f6b32ceea5bf9ae172a978aebe5a93059b84f3baf53371e3de20e5344563f2",
+              "AGENTS.md": "fa47a9b923a6ae19da76f31723164a3d41b3ee3e5f4c15410621ff9190f2bc79",
+              "DEVELOPMENT_WORKFLOW.md": "cc449a7f1e187d48f0b2742e930ae212eb1b996fc9d11c92eed8805d7ef41c27",
+              "SEMINARTEXT_4_MVP_DEFINITION.md": "d356fffd0f7e59379d1e659eaf795f41b00315d9f41d8777834a13f4277553a8",
+              "SEMINARTEXT_4_ROADMAP.md": "e7f304374ceb94240b12fe4e0c3d675be7d662c016039ae7611d2c3737b6f7a3",
+              "SEMINARTEXT_4_STATE.json": "500196061563a559a288aa59c004024a1c118e47ae63274d2752c118c3bf4cf5",
+              "SEMINARTEXT_VERSION": "e1d49c569ae09b2ede16e2d83820a3809b35eb6c44c13ba9b5330598d6b8f43c",
+              "docs/architecture/SEMINARTEXT_PRODUCT_RULES.md": "b59ba7205120ec1a0dd8fe0f881c26c8056ba7feb61bebd27c7100b59b899492",
+              "integrity/milestone_reconciliation.json": "463ae7d17a30e2e45a03b3f4612fe12d56a1a11b28f73a2f8f599367b4f62d27",
+              "scripts/check_governance.py": "ca14a22fa247033adbc975e675736d3ff265fb9219e2526142f9b288c6ec2ed2",
+              "scripts/validate_product_rules.py": "042e5844fbdfc1f17e9f5f560292d0f6e1e269f3b8e923b68f8b8466ecf415bf"
+            },
+            "governed_hashes_before": {
+              ".github/ISSUE_TEMPLATE.md": "8630684e9222daad4d59af525d550ceda84f06d940c463d1564fd320be5bacff",
+              ".github/PULL_REQUEST_TEMPLATE.md": "b60812ed37ef901b77aae44612c451a05a4b6e1bf6641fa7eaf191ecb7d6c766",
+              ".github/workflows/ci.yml": "66f6b32ceea5bf9ae172a978aebe5a93059b84f3baf53371e3de20e5344563f2",
+              "AGENTS.md": "fa47a9b923a6ae19da76f31723164a3d41b3ee3e5f4c15410621ff9190f2bc79",
+              "DEVELOPMENT_WORKFLOW.md": "cc449a7f1e187d48f0b2742e930ae212eb1b996fc9d11c92eed8805d7ef41c27",
+              "SEMINARTEXT_4_MVP_DEFINITION.md": "d356fffd0f7e59379d1e659eaf795f41b00315d9f41d8777834a13f4277553a8",
+              "SEMINARTEXT_4_ROADMAP.md": "e7f304374ceb94240b12fe4e0c3d675be7d662c016039ae7611d2c3737b6f7a3",
+              "SEMINARTEXT_4_STATE.json": "500196061563a559a288aa59c004024a1c118e47ae63274d2752c118c3bf4cf5",
+              "SEMINARTEXT_VERSION": "e1d49c569ae09b2ede16e2d83820a3809b35eb6c44c13ba9b5330598d6b8f43c",
+              "docs/architecture/SEMINARTEXT_PRODUCT_RULES.md": "b59ba7205120ec1a0dd8fe0f881c26c8056ba7feb61bebd27c7100b59b899492",
+              "integrity/milestone_reconciliation.json": "463ae7d17a30e2e45a03b3f4612fe12d56a1a11b28f73a2f8f599367b4f62d27",
+              "scripts/check_governance.py": "ca14a22fa247033adbc975e675736d3ff265fb9219e2526142f9b288c6ec2ed2",
+              "scripts/validate_product_rules.py": "042e5844fbdfc1f17e9f5f560292d0f6e1e269f3b8e923b68f8b8466ecf415bf"
+            },
+            "mutated_files": [],
+            "stderr": "",
+            "stdout": "GOVERNANCE CHECK: PASS\n  version=4.0.0\n  state_schema=3\n  checkpoint=evidence_first_parallel_v1\n  next_actions=1\n  maturity_semantics=present\n  mvp_definition=linked\n  obsolete_active_gates=absent\n  dataset_registry=consistent_fail_closed\n  topic_engine_lifecycle=consistent_candidate_frozen_dataset_d_blocked\n  product_rules_registry=valid_14_rules\n  product_rules_control_loop=wired_structural_validation"
+          },
+          "id": "G3",
+          "name": "Governance Truth",
+          "reason": "repository governance, Product Rules control loop, and accepted-decision reconciliation passed read-only",
+          "status": "PASS"
+        },
+        {
+          "evidence": {
+            "contract": "dependencies/dependency_profiles.json",
+            "model_metadata": {
+              "alignment_model": "jonatasgrosman/wav2vec2-large-xlsr-53-russian",
+              "alignment_revision": "2329100508896c6d9b157019803ab5601e6f3406",
+              "ollama_expected_digest": "7907646426070047a77226ac3e684fbbe8410524f7b4a74d02837e43f2146bab"
+            },
+            "profiles": [
+              {
+                "all_lock_entries_pinned": true,
+                "lock": "dependencies/locks/core-py3.14.lock",
+                "lock_entries": 10,
+                "lock_exists": true,
+                "profile": "core_product",
+                "requirements": "requirements-core.txt",
+                "requirements_exists": true,
+                "supported_python": ">=3.14,<3.15"
+              },
+              {
+                "all_lock_entries_pinned": true,
+                "lock": "dependencies/locks/dev-py3.14.lock",
+                "lock_entries": 21,
+                "lock_exists": true,
+                "profile": "dev_test",
+                "requirements": "requirements-dev.txt",
+                "requirements_exists": true,
+                "supported_python": ">=3.14,<3.15"
+              },
+              {
+                "all_lock_entries_pinned": true,
+                "lock": "dependencies/locks/alignment-py3.13.lock",
+                "lock_entries": 10,
+                "lock_exists": true,
+                "profile": "alignment_whisperx",
+                "requirements": "requirements-alignment.txt",
+                "requirements_exists": true,
+                "supported_python": ">=3.13,<3.14"
+              },
+              {
+                "all_lock_entries_pinned": true,
+                "lock": "dependencies/locks/treeseg-py3.14.lock",
+                "lock_entries": 6,
+                "lock_exists": true,
+                "profile": "treeseg_topic_external",
+                "requirements": "requirements-treeseg.txt",
+                "requirements_exists": true,
+                "supported_python": ">=3.14,<3.15"
+              }
+            ]
+          },
+          "id": "G4",
+          "name": "Dependency Truth",
+          "reason": "isolated dependency manifests, locks, and model drift metadata are present",
+          "status": "PASS"
+        },
+        {
+          "evidence": {
+            "checks": {
+              "canonical_evidence_invariants": {
+                "errors": [],
+                "status": "PASS"
+              },
+              "canonical_evidence_schema": {
+                "errors": [],
+                "status": "PASS"
+              },
+              "canonical_knowledge_invariants": {
+                "errors": [],
+                "status": "PASS"
+              },
+              "canonical_knowledge_schema": {
+                "errors": [],
+                "status": "PASS"
+              },
+              "cross_record_references": {
+                "evidence": "composed validators",
+                "status": "PASS"
+              },
+              "fail_closed_negative_cases": {
+                "evidence": "structural and cross-record validators return errors for malformed records",
+                "status": "PASS"
+              },
+              "golden_slice_compatibility": {
+                "details": {
+                  "artifact": "analysis/golden_knowledge_slice/golden_knowledge_slice.json",
+                  "builder_validation": "PASS",
+                  "committed_sha256": "177d030a6ac3e3dc0a28d655db0f12321e09caba8eff494c078aeb828339d4d6",
+                  "deterministic_rebuild": "PASS",
+                  "rebuilt_sha256": "177d030a6ac3e3dc0a28d655db0f12321e09caba8eff494c078aeb828339d4d6"
+                },
+                "errors": [],
+                "status": "PASS"
+              },
+              "lifecycle_contract": {
+                "errors": [],
+                "status": "PASS"
+              },
+              "provenance_and_lineage": {
+                "errors": [],
+                "status": "PASS"
+              },
+              "source_pointers_and_hashes": {
+                "errors": [],
+                "status": "PASS"
+              }
+            },
+            "contract_paths": {
+              "evidence_artifact": "analysis/word_timeline_mvp/canonical_evidence_bundle.json",
+              "evidence_schema": "schemas/canonical_evidence_v1.schema.json",
+              "golden_builder": "analysis/golden_knowledge_slice/build_golden_slice.py",
+              "golden_curation": "analysis/golden_knowledge_slice/curation.json",
+              "golden_slice": "analysis/golden_knowledge_slice/golden_knowledge_slice.json",
+              "knowledge_artifact": "tests/fixtures/canonical_knowledge_v1/golden_slice_knowledge.json",
+              "knowledge_lifecycle": "schemas/canonical_knowledge_lifecycle_v1.json",
+              "knowledge_schema": "schemas/canonical_knowledge_v1.schema.json"
+            },
+            "fail_closed": true,
+            "summary": {
+              "canonical_evidence": "PASS",
+              "canonical_knowledge": "PASS",
+              "cross_record": "PASS",
+              "error_count": 0,
+              "golden_slice": "PASS"
+            }
+          },
+          "id": "G5",
+          "name": "Canonical Contract Truth",
+          "reason": "canonical evidence and knowledge contracts validated: schemas=PASS; stable_ids/references/provenance/lifecycle/lineage/source_pointers=PASS; golden_slice_compatibility=PASS; fail_closed=PASS",
+          "status": "PASS"
+        },
+        {
+          "evidence": {
+            "blocking_policy": "future_blocking",
+            "contract_implementation": "NOT_IMPLEMENTED"
+          },
+          "id": "G6",
+          "name": "End-to-End Truth",
+          "reason": "Future gate requires an explicit supported end-to-end fixture; expensive ML/model execution is outside v1.",
+          "status": "NOT_IMPLEMENTED"
+        },
+        {
+          "evidence": {
+            "command": [
+              "/Users/yurielokhin/.seminartext-venv/bin/python",
+              "-m",
+              "pytest",
+              "-q",
+              "-rs",
+              "-p",
+              "no:cacheprovider"
+            ],
+            "exit_code": 0,
+            "failed": 0,
+            "output_tail": [
+              "........................................................................ [ 14%]",
+              "........................................................................ [ 28%]",
+              "........................................................................ [ 43%]",
+              "........................................................................ [ 57%]",
+              "........................................................................ [ 72%]",
+              "........................................................................ [ 86%]",
+              "....................................................................     [100%]",
+              "500 passed in 219.08s (0:03:39)"
+            ],
+            "passed": 500,
+            "skip_details": [],
+            "skip_policy": "WARN_WHEN_ACTIVE_RUNTIME_IS_NOT_REBUILT_FROM_DEV_PROFILE",
+            "skip_policy_limitation": "The shared runtime may retain visible jsonschema skips until it is rebuilt from requirements-dev.txt; the isolated dev profile resolves them without global mutation.",
+            "skipped": 0
+          },
+          "id": "G7",
+          "name": "Test Truth",
+          "reason": "full repository tests passed (500 passed, 0 skipped)",
+          "status": "PASS"
+        },
+        {
+          "evidence": {
+            "contradictions": [],
+            "control_plane": {
+              "contract_version": "2026-10-29.issue-68-progress",
+              "control_plane_reconciled": true,
+              "current_milestone_id": "issue_68_real_multi_source_vertical_slice",
+              "g3_errors": [],
+              "g8_errors": [],
+              "github_lifecycle_check": "NOT_RUN",
+              "human_gate": "AUTO_UNTIL_DOMAIN_REVIEW",
+              "lifecycle_state": "IN_PROGRESS",
+              "next_issue_allowed": false
+            },
+            "declared_commands": [
+              {
+                "command": "project-topic-benchmark-run",
+                "dispatched": true,
+                "stage": "topic_benchmark_runner"
+              },
+              {
+                "command": "project-obsidian-export",
+                "dispatched": true,
+                "stage": "project_knowledge_bridge"
+              },
+              {
+                "command": "project-obsidian-export",
+                "dispatched": true,
+                "stage": "obsidian_export"
+              }
+            ],
+            "maturity_fields": [
+              {
+                "production_integration_complete": false,
+                "production_population_complete": null,
+                "stage": "word_alignment",
+                "status": "complete_technology_selected"
+              },
+              {
+                "production_integration_complete": null,
+                "production_population_complete": false,
+                "stage": "canonical_evidence_schema_v1",
+                "status": "complete_accepted"
+              },
+              {
+                "production_integration_complete": false,
+                "production_population_complete": null,
+                "stage": "word_timeline_mvp",
+                "status": "complete_accepted"
+              },
+              {
+                "production_integration_complete": false,
+                "production_population_complete": null,
+                "stage": "canonical_knowledge_v1",
+                "status": "complete_accepted"
+              }
+            ],
+            "product_mvp_status": "defined_not_yet_product_integrated",
+            "state_version": "4.0.0",
+            "version_file": "4.0.0"
+          },
+          "id": "G8",
+          "name": "Product State Truth",
+          "reason": "product maturity and milestone progression reconciliation pass",
+          "status": "PASS"
+        }
+      ],
+      "github_lifecycle_check": "NOT_RUN",
+      "head_sha": "9c99028ea15388a3850770c7cfe6c816406c4335",
+      "human_gate": "AUTO_UNTIL_DOMAIN_REVIEW",
+      "implemented_blocking_failures": [],
+      "integrity_contract_version": "1.1.2",
+      "internal_errors": [],
+      "next_issue_allowed": false,
+      "project_integrity": "PARTIAL",
+      "report_schema_version": 2,
+      "repository_root": "/Users/yurielokhin/Documents/Codex/seminartext-repair-20261102/deploy-source"
+    },
+    "integrity_contract": {
+      "allowed_statuses": [
+        "PASS",
+        "FAIL",
+        "WARN",
+        "NOT_IMPLEMENTED",
+        "NOT_APPLICABLE"
+      ],
+      "exit_codes": {
+        "0": "No implemented blocking gate failed; future NOT_IMPLEMENTED gates still make project integrity PARTIAL.",
+        "1": "At least one implemented blocking gate failed.",
+        "2": "Integrity contract or checker execution failed internally."
+      },
+      "gates": [
+        {
+          "blocking_policy": "blocking",
+          "id": "G1",
+          "implementation": "IMPLEMENTED",
+          "invariant": "Repository identity, cleanliness, origin/main relation, and required tracked runtime source are truthful.",
+          "name": "Git Truth"
+        },
+        {
+          "blocking_policy": "blocking",
+          "id": "G2",
+          "implementation": "IMPLEMENTED",
+          "invariant": "Any detected installed runtime is complete, byte-identical to repository-governed runtime source, and can dispatch Evidence Foundation, Project Knowledge bridge, and Dataset Governance CLI paths without missing-module/import errors.",
+          "name": "Runtime Truth"
+        },
+        {
+          "blocking_policy": "blocking",
+          "id": "G3",
+          "implementation": "IMPLEMENTED",
+          "invariant": "The repository governance checker is read-only; the canonical Product Rules Registry, stable IDs, lifecycle, supersession structure, operating control loop, and accepted decisions, dispositions, and human-gate lifecycle truth reconcile against repository contracts.",
+          "name": "Governance Truth"
+        },
+        {
+          "blocking_policy": "blocking",
+          "id": "G4",
+          "implementation": "IMPLEMENTED",
+          "invariant": "Each accepted profile has a pinned manifest/lock, documented Python runtime, and model drift metadata.",
+          "name": "Dependency Truth"
+        },
+        {
+          "blocking_policy": "blocking",
+          "id": "G5",
+          "implementation": "IMPLEMENTED",
+          "invariant": "Accepted Canonical Evidence v1 and Canonical Knowledge v1 schemas, stable IDs, references, provenance, lifecycle, lineage, source pointers, and Golden Slice compatibility are validated fail-closed.",
+          "name": "Canonical Contract Truth"
+        },
+        {
+          "blocking_policy": "future_blocking",
+          "id": "G6",
+          "implementation": "NOT_IMPLEMENTED",
+          "name": "End-to-End Truth",
+          "reason": "Future gate requires an explicit supported end-to-end fixture; expensive ML/model execution is outside v1."
+        },
+        {
+          "blocking_policy": "blocking",
+          "id": "G7",
+          "implementation": "IMPLEMENTED",
+          "invariant": "The supported full pytest command is executed; failures and skips are never hidden.",
+          "name": "Test Truth"
+        },
+        {
+          "blocking_policy": "blocking",
+          "id": "G8",
+          "implementation": "IMPLEMENTED",
+          "invariant": "Version, product maturity, current milestone, next actions, blocked work, and runtime-reconciliation readiness do not contradict the offline milestone contract.",
+          "name": "Product State Truth"
+        }
+      ],
+      "integrity_contract_version": "1.1.2",
+      "runtime_components": [
+        {
+          "deployed_name": "seminartext_4.0_work",
+          "id": "cli",
+          "repository_path": "seminartext",
+          "required": true
+        },
+        {
+          "deployed_name": "seminartext_topics.py",
+          "id": "topics",
+          "repository_path": "seminartext_modules/seminartext_topics.py",
+          "required": true
+        },
+        {
+          "deployed_name": "seminartext_translate.py",
+          "id": "translate",
+          "repository_path": "seminartext_modules/seminartext_translate.py",
+          "required": true
+        },
+        {
+          "deployed_name": "seminartext_modules/evidence_foundation.py",
+          "id": "evidence_foundation",
+          "repository_path": "seminartext_modules/evidence_foundation.py",
+          "required": true
+        },
+        {
+          "deployed_name": "seminartext_modules/project_knowledge_bridge.py",
+          "id": "project_knowledge_bridge",
+          "repository_path": "seminartext_modules/project_knowledge_bridge.py",
+          "required": true
+        },
+        {
+          "deployed_name": "seminartext_modules/human_review_workflow.py",
+          "id": "human_review_workflow",
+          "repository_path": "seminartext_modules/human_review_workflow.py",
+          "required": true
+        },
+        {
+          "deployed_name": "seminartext_modules/owned_tmp.py",
+          "id": "owned_tmp",
+          "repository_path": "seminartext_modules/owned_tmp.py",
+          "required": true
+        },
+        {
+          "deployed_name": "seminartext_modules/group_sources.py",
+          "id": "group_sources",
+          "repository_path": "seminartext_modules/group_sources.py",
+          "required": true
+        },
+        {
+          "deployed_name": "seminartext_modules/asr_completion.py",
+          "id": "asr_completion",
+          "repository_path": "seminartext_modules/asr_completion.py",
+          "required": true
+        },
+        {
+          "deployed_name": "schemas/validate_canonical_evidence_v1.py",
+          "id": "canonical_validator",
+          "repository_path": "schemas/validate_canonical_evidence_v1.py",
+          "required": true
+        },
+        {
+          "deployed_name": "schemas/canonical_evidence_v1.schema.json",
+          "id": "canonical_schema",
+          "repository_path": "schemas/canonical_evidence_v1.schema.json",
+          "required": true
+        },
+        {
+          "deployed_name": "schemas/validate_canonical_knowledge_v1.py",
+          "id": "canonical_knowledge_validator",
+          "repository_path": "schemas/validate_canonical_knowledge_v1.py",
+          "required": true
+        },
+        {
+          "deployed_name": "schemas/canonical_knowledge_v1.schema.json",
+          "id": "canonical_knowledge_schema",
+          "repository_path": "schemas/canonical_knowledge_v1.schema.json",
+          "required": true
+        },
+        {
+          "deployed_name": "schemas/canonical_knowledge_lifecycle_v1.json",
+          "id": "canonical_knowledge_lifecycle",
+          "repository_path": "schemas/canonical_knowledge_lifecycle_v1.json",
+          "required": true
+        },
+        {
+          "deployed_name": "schemas/project_knowledge_input_v1.schema.json",
+          "id": "project_knowledge_input_schema",
+          "repository_path": "schemas/project_knowledge_input_v1.schema.json",
+          "required": true
+        },
+        {
+          "deployed_name": "schemas/topic_review_workflow_v1.schema.json",
+          "id": "topic_review_workflow_schema",
+          "repository_path": "schemas/topic_review_workflow_v1.schema.json",
+          "required": true
+        },
+        {
+          "deployed_name": "schemas/topic_review_workflow_v2.schema.json",
+          "id": "topic_review_workflow_schema_v2",
+          "repository_path": "schemas/topic_review_workflow_v2.schema.json",
+          "required": true
+        },
+        {
+          "deployed_name": "seminartext_modules/dataset_governance.py",
+          "id": "dataset_governance",
+          "repository_path": "seminartext_modules/dataset_governance.py",
+          "required": true
+        },
+        {
+          "deployed_name": "governance/dataset_registry.json",
+          "id": "dataset_registry",
+          "repository_path": "governance/dataset_registry.json",
+          "required": true
+        },
+        {
+          "deployed_name": "seminartext_modules/topic_engine_governance.py",
+          "id": "topic_engine_governance",
+          "repository_path": "seminartext_modules/topic_engine_governance.py",
+          "required": true
+        },
+        {
+          "deployed_name": "governance/topic_engine_lifecycle.json",
+          "id": "topic_engine_lifecycle",
+          "repository_path": "governance/topic_engine_lifecycle.json",
+          "required": true
+        },
+        {
+          "deployed_name": "governance/topic_engine_freeze.json",
+          "id": "topic_engine_freeze",
+          "repository_path": "governance/topic_engine_freeze.json",
+          "required": true
+        },
+        {
+          "deployed_name": "SEMINARTEXT_VERSION",
+          "id": "version",
+          "repository_path": "SEMINARTEXT_VERSION",
+          "required": true
+        },
+        {
+          "deployed_name": "SEMINARTEXT_4_STATE.json",
+          "id": "state",
+          "repository_path": "SEMINARTEXT_4_STATE.json",
+          "required": true
+        },
+        {
+          "deployed_name": "SEMINARTEXT_4_ROADMAP.md",
+          "id": "roadmap",
+          "repository_path": "SEMINARTEXT_4_ROADMAP.md",
+          "required": true
+        },
+        {
+          "deployed_name": "seminartext_modules/automatic_topic_review.py",
+          "id": "automatic_topic_review",
+          "repository_path": "seminartext_modules/automatic_topic_review.py",
+          "required": true
+        },
+        {
+          "deployed_name": "seminartext_modules/batch_topic_review.py",
+          "id": "batch_topic_review",
+          "repository_path": "seminartext_modules/batch_topic_review.py",
+          "required": true
+        },
+        {
+          "deployed_name": "seminartext_modules/media_to_review.py",
+          "id": "media_to_review",
+          "repository_path": "seminartext_modules/media_to_review.py",
+          "required": true
+        },
+        {
+          "deployed_name": "seminartext_modules/media_alignment.py",
+          "id": "media_alignment",
+          "repository_path": "seminartext_modules/media_alignment.py",
+          "required": true
+        },
+        {
+          "deployed_name": "seminartext_modules/reviewed_knowledge_admission.py",
+          "id": "reviewed_knowledge_admission",
+          "repository_path": "seminartext_modules/reviewed_knowledge_admission.py",
+          "required": true
+        },
+        {
+          "deployed_name": "seminartext_modules/seminartext_topics.py",
+          "id": "topic_review_engine",
+          "repository_path": "seminartext_modules/seminartext_topics.py",
+          "required": true
+        },
+        {
+          "deployed_name": "analysis/word_alignment_decision/run_whisperx_existing_text.py",
+          "id": "existing_alignment_producer",
+          "repository_path": "analysis/word_alignment_decision/run_whisperx_existing_text.py",
+          "required": true
+        },
+        {
+          "deployed_name": "requirements-alignment.txt",
+          "id": "alignment_requirements",
+          "repository_path": "requirements-alignment.txt",
+          "required": true
+        },
+        {
+          "deployed_name": "dependencies/dependency_profiles.json",
+          "id": "dependency_profiles",
+          "repository_path": "dependencies/dependency_profiles.json",
+          "required": true
+        },
+        {
+          "deployed_name": "dependencies/locks/alignment-py3.13.lock",
+          "id": "alignment_lock",
+          "repository_path": "dependencies/locks/alignment-py3.13.lock",
+          "required": true
+        },
+        {
+          "deployed_name": "schemas/reviewed_knowledge_admission_v1.schema.json",
+          "id": "reviewed_knowledge_admission_schema",
+          "repository_path": "schemas/reviewed_knowledge_admission_v1.schema.json",
+          "required": true
+        }
+      ],
+      "schema_version": 1,
+      "test_policy": {
+        "command": [
+          "{test_python}",
+          "-m",
+          "pytest",
+          "-q",
+          "-rs",
+          "-p",
+          "no:cacheprovider"
+        ],
+        "known_current_limitation": "The shared runtime may retain visible jsonschema skips until it is rebuilt from requirements-dev.txt; the isolated dev profile resolves them without global mutation.",
+        "skip_policy": "WARN_WHEN_ACTIVE_RUNTIME_IS_NOT_REBUILT_FROM_DEV_PROFILE"
+      }
+    },
+    "integrity_report_sha256": "582b3e32ba9972ec03034246fd1fa829576372dd9578d038e718b3918f570de3",
+    "product": "seminartext",
+    "schema_version": 1,
+    "scope": "Native technical activation; not semantic acceptance or full product MVP acceptance.",
+    "status": "SUCCEEDED",
+    "target": "file:///Users/yurielokhin/bin"
+  },
+  "native_reference": "file:///Users/yurielokhin/.seminartext-deploy-backups/20261103_003006__9c99028/activation-receipt.json",
+  "status": "SUCCEEDED",
+  "subject_sha256": "e41d4d0e246a04d845dd10866134457aec29048a48d2292721a19f693ea40012"
+}
