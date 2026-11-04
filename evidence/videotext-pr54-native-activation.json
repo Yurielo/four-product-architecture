@@ -1,0 +1,116 @@
+{
+  "kind": "native_activation",
+  "native_evidence": {
+    "accepted_candidate": {
+      "content_digest": "8d1f8ea58216b3fb5ba755d03103779e5b48f8e104fb4973db042da3077619eb",
+      "head": "c1e864422de1f42cdec49155031d87a63a638e02",
+      "owner_pass_reference": "https://github.com/Yurielo/videotext/pull/54#issuecomment-6639508010",
+      "path": "/Users/Shared/videotext-pr54-zero-batch-c1e8644-candidate/videotext.app"
+    },
+    "bundled_seminartext": {
+      "canonical_commit": "9c99028ea15388a3850770c7cfe6c816406c4335",
+      "canonical_commit_file_sha256": "02d1c819a4efcf39985a89c7a04606d512bcc0c0c1e9d9e9c887fa7ad726989e",
+      "cli_sha256": "97bcbb2c7d9c6936c8fbe8efa1f5ad0b78e807eb7cea73b0f5a7b7f484889bd1",
+      "version": "4.0.0",
+      "version_file_sha256": "e1d49c569ae09b2ede16e2d83820a3809b35eb6c44c13ba9b5330598d6b8f43c"
+    },
+    "hosted_exact_sha": {
+      "head": "c1e864422de1f42cdec49155031d87a63a638e02",
+      "run_id": 41862565892,
+      "status": "SUCCESS",
+      "url": "https://github.com/Yurielo/videotext/actions/runs/41862565892"
+    },
+    "installed_bundle_observation": {
+      "codesign_verification": "PASS",
+      "content_digest": "8d1f8ea58216b3fb5ba755d03103779e5b48f8e104fb4973db042da3077619eb",
+      "digest_algorithm": "sha256-file-list-v1",
+      "normal_launch_quit": "PASS",
+      "path": "/Users/yurielokhin/Applications/videotext.app",
+      "version": "0.7.0 (2026.10.20.1)"
+    },
+    "native_delivery_record": {
+      "path": "/Users/yurielokhin/.codex/worktrees/videotext-asr-recovery-audit/work/release-gate/20261104T152327Z/post-owner-delivery.json",
+      "sha256": "2fbd2925ede795150f39f3b2946f760e153e1be127fbb9a926ee234549b9bd46",
+      "value": {
+        "acceptedHead": "c1e864422de1f42cdec49155031d87a63a638e02",
+        "backupContentDigest": "9661f18bfc60dfc3c4b5a06d2d9cb5dff8e1791e8a2cd7a166acd8bec0f80016",
+        "backupPath": "/Users/yurielokhin/.codex/worktrees/videotext-asr-recovery-audit/work/release-gate/backups/videotext-before-pr54-c1e8644.app",
+        "bundleIdentifier": "local.codex.videotext.v3",
+        "bundledSeminarText": {
+          "canonicalCommitManifestSha256": "02d1c819a4efcf39985a89c7a04606d512bcc0c0c1e9d9e9c887fa7ad726989e",
+          "cliSha256": "97bcbb2c7d9c6936c8fbe8efa1f5ad0b78e807eb7cea73b0f5a7b7f484889bd1",
+          "sourceCommit": "9c99028ea15388a3850770c7cfe6c816406c4335",
+          "version": "4.0.0",
+          "versionManifestSha256": "e1d49c569ae09b2ede16e2d83820a3809b35eb6c44c13ba9b5330598d6b8f43c"
+        },
+        "candidatePath": "/Users/Shared/videotext-pr54-zero-batch-c1e8644-candidate/videotext.app",
+        "centralRegistryPublication": "PENDING",
+        "codesignStrictDeep": "PASS",
+        "contentDigest": "8d1f8ea58216b3fb5ba755d03103779e5b48f8e104fb4973db042da3077619eb",
+        "contentDigestAlgorithm": "sha256-file-list-v1",
+        "hostedRunId": 41862565892,
+        "hostedStatus": "SUCCESS",
+        "installedBuild": "2026.10.20.1",
+        "installedContentDigest": "8d1f8ea58216b3fb5ba755d03103779e5b48f8e104fb4973db042da3077619eb",
+        "installedPath": "/Users/yurielokhin/Applications/videotext.app",
+        "installedVersion": "0.7.0",
+        "kind": "videotext-native-post-owner-delivery",
+        "launchServicesInstalledPathObserved": "/Users/yurielokhin/Applications/videotext.app/Contents/MacOS/videotext",
+        "launchServicesNormalQuit": "PASS",
+        "launchServicesObservedPID": 53744,
+        "mediaProcessesAfterDelivery": "NONE",
+        "mergeCommit": "c3a4424a1deee42598bab8cf4ba70b43fcaf7e91",
+        "mergeTreeEqualsAcceptedHead": true,
+        "ownerPassReceipt": "/Users/yurielokhin/.codex/worktrees/videotext-asr-recovery-audit/work/release-gate/20261104T152327Z/owner-pass.json",
+        "ownerPassReceiptSha256": "bf4e1805e5c797760412172c6ff3db5f31734c4d422973d2735e99cd9d8a2500",
+        "postInstallLifecycle": "PASS",
+        "postInstallLifecycleLog": "/Users/yurielokhin/.codex/worktrees/videotext-asr-recovery-audit/work/release-gate/20261104T152327Z/post-install-lifecycle.log",
+        "postInstallLifecycleLogSha256": "f9d71d263314eca107ddf0880d9e1a6d93e4012acd3bdec56df484d55d58ffaa",
+        "pr": 54,
+        "prState": "MERGED",
+        "recordedAt": "2026-11-04T19:13:25.566768+00:00",
+        "schemaVersion": 1,
+        "status": "DELIVERED"
+      }
+    },
+    "owner_pass_record": {
+      "path": "/Users/yurielokhin/.codex/worktrees/videotext-asr-recovery-audit/work/release-gate/20261104T152327Z/owner-pass.json",
+      "sha256": "bf4e1805e5c797760412172c6ff3db5f31734c4d422973d2735e99cd9d8a2500",
+      "value": {
+        "acceptedHead": "c1e864422de1f42cdec49155031d87a63a638e02",
+        "approvedNormalTopicsSha256": "06598706191a773be7f7450848c2a31c1b5776c799adaeaa9371b0f198501bd0",
+        "approvedRuSrtSha256": "dd476c374af0a8ce9c81f80e0c48ae468d0dc1e5190f46621fdff84a5386a24f",
+        "candidatePath": "/Users/Shared/videotext-pr54-zero-batch-c1e8644-candidate/videotext.app",
+        "candidatePathIndependentContentSha256": "8d1f8ea58216b3fb5ba755d03103779e5b48f8e104fb4973db042da3077619eb",
+        "controlledOwnerProject": "/Users/Shared/videotext-pr54-owner-review-ready/Обработка видео video2619096134",
+        "kind": "videotext-owner-acceptance",
+        "observedApprovedEnRevision": "transcript-en-approved-93759a02fe106425",
+        "observedOwnerProjectManifestSha256": "b13e793067ddbc71bed96da7d4ef4689996d44348b61d6aa91adf06e2e342bb9",
+        "observedResolvedEnCueIDs": [
+          516,
+          810,
+          811
+        ],
+        "ownerReply": "pass",
+        "ownerReplyContext": "Reply to exact Candidate PR #54 Owner Test handoff after Candidate launch; comprehensive test instructions provided in preceding assistant turn",
+        "pr": 54,
+        "recordedAt": "2026-11-04T19:04:44.330472+00:00",
+        "schemaVersion": 1,
+        "scope": "focused PR #54 Candidate acceptance; not independent transcript accuracy verification",
+        "status": "PASS"
+      }
+    },
+    "release_gate_evidence": {
+      "path": "/Users/yurielokhin/.codex/worktrees/videotext-asr-recovery-audit/work/release-gate/20261104T152327Z/evidence.env",
+      "sha256": "8a6dbd84ff9c3101f7e90fbe8bdbce02d45a2fe509ac6cd4033ac4dee46e3ad9",
+      "status": "PASS"
+    },
+    "unified_rules": {
+      "integra_main_commit": "9c39583c9be328fc2b4f98992f0d92e6e471fc2c",
+      "sha256": "8b8e31c7620d45e1e14429e07e7b97b2adc118745ce781a55b932213c55b646b"
+    }
+  },
+  "native_reference": "https://github.com/Yurielo/videotext/pull/54#issuecomment-6639508010",
+  "status": "SUCCEEDED",
+  "subject_sha256": "52373d35dee7c848f5c3aa9b5a0f8839ad9de2cd23d9cf4610955ce68bf8a314"
+}
